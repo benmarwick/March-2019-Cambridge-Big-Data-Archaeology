@@ -106,20 +106,86 @@ disruption_df <-
   bind_rows(disruption_output) %>% 
   arrange(desc(disruption)) %>% 
   left_join(items_wth_dois_and_refs, 
-            by = c('doi' = 'doi_article'))
+            by = c('doi' = 'doi_article')) %>% 
+  mutate(first_author = str_remove_all(authors, '\\"')) %>% 
+  mutate(first_author = gsub("^(.*?),.*", "\\1", first_author)) %>% 
+  mutate(short_ref = as.character(str_glue('{first_author} {year}, {str_trunc(title, 50)}')))
 
-saveRDS(disruption_df, here("data", "derived-data", "disruption_df"))
+saveRDS(disruption_df, here("data", "derived-data", "disruption_df.rds"))
 
-ggplot(disruption_df,
-       aes(disruption)) +
-  geom_histogram()
+ggplot() +
+  geom_histogram(data = disruption_df,
+                 aes(disruption)) +
+  theme_minimal(base_size = 12) +
+  xlab("Disruption index") +
+  scale_x_continuous(limits = c(-1, 1))
+
+disruption_df_top_10 <-  
+  disruption_df %>% 
+  arrange(desc(disruption)) %>% 
+  slice(1:10) 
+
+disruption_df_bottom_10 <-  
+  disruption_df %>% 
+  arrange((disruption)) %>% 
+  slice(1:10) 
+
+y_pos <-  seq.int(from = 400, 
+                  to = 210, 
+                  length.out = length(disruption_df_top_10$disruption))
+
+y_pos_bottom <-  seq.int(from = 10, 
+                  to = 200, 
+                  length.out = length(disruption_df_bottom_10$disruption))
+  
+ggplot() +
+  geom_histogram(data = disruption_df,
+                 aes(disruption),
+                 alpha = 0.4) +
+  theme_minimal(base_size = 12) +
+  xlab(str_glue("Disruption index values for {nrow(disruption_df)} articles from Web of Science (1998-2018)")) +
+  scale_x_continuous(limits = c(-1, 1)) +
+  geom_segment(data = disruption_df_top_10,
+          aes(x = disruption,
+               xend = disruption,
+               y = rep(0, length(disruption_df_top_10$disruption)),
+               yend = y_pos),
+          colour = "darkgreen",
+          alpha = 0.3,
+          size = 0.1) +
+  geom_segment(data = disruption_df_bottom_10,
+               aes(x = disruption,
+                   xend = disruption,
+                   y = rep(0, length(disruption_df_bottom_10$disruption)),
+                   yend = y_pos_bottom),
+               colour = "darkred",
+               alpha = 0.3, 
+               size = 0.1) +
+  annotate("text", 
+           x = disruption_df_top_10$disruption - 0,
+           y = y_pos,
+          label = disruption_df_top_10$short_ref, 
+          colour = "darkgreen",
+          size = disruption_df_top_10$disruption * 7,
+          hjust = 1) +
+  annotate("text", 
+           x = disruption_df_bottom_10$disruption - 0,
+           y = y_pos_bottom,
+           label = disruption_df_bottom_10$short_ref, 
+           colour = "darkred",
+           size = -disruption_df_bottom_10$disruption * 15,
+           hjust = 1)
+
+ggsave(here("figures", "disruption-index.png"))
+
 
 ggplot(disruption_df,
        aes(disruption, authors_n)) +
-  geom_point() +
-  geom_smooth()
+  geom_jitter() +
+  geom_smooth(alpha = 0.2) +
+  theme_minimal(base_size = 12)
 
-  
+
 
 
 
