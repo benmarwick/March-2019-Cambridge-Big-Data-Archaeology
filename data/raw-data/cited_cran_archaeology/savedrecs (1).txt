@@ -1,0 +1,849 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Dabrowski, P
+   Grzelak, J
+   Kulus, M
+   Staniowski, T
+AF Dabrowski, Pawel
+   Grzelak, Joanna
+   Kulus, Michal
+   Staniowski, Tomasz
+TI Diagnodent and VistaCam may be unsuitable for the evaluation of dental
+   caries in archeological teeth
+SO AMERICAN JOURNAL OF PHYSICAL ANTHROPOLOGY
+LA English
+DT Article
+DE bioarcheology; caries; Diagnodent; method comparison; VistaCam
+ID LASER-SCANNING MICROSCOPY; BEAM COMPUTED-TOMOGRAPHY; OCCLUSAL CARIES;
+   IN-VITRO; ICDAS-II; FLUORESCENCE METHODS; PEN; PERFORMANCE; VISTAPROOF;
+   PREVALENCE
+AB Objectives The aim of the study was to compare the usefulness of fluorescence-based caries detection systems (Diagnodent and VistaCam) for the assessment of carious lesions on archeological molars. Materials and methods The study material consisted of teeth from the Cemetery of St. Mary Magdalene (Cmentarz sw. Marii Magdaleny) in Wroclaw, Poland. A sample of 178 permanent molars from 38 skulls were examined. Five surfaces of teeth (occlusal, mesial, distal, buccal, and lingual) were assessed on either basically cleaned or sandblasted teeth. Six diagnostic methods were used to detect carious lesions: the visual classification of the International Caries Detection and Assessment System (ICDAS II), fluorescent methods (Diagnodent and VistaCam), X-ray, cone beam computed tomography and histological sections. The sensitivity and specificity of the methods were determined using receiver operating characteristic (ROC) curves and the correlation between the severity of dental caries and the readouts obtained with each method. Results In most cases, Diagnodent and VistaCam yielded unsatisfactory specificity and sensitivity values. The area under curve (AUC) values in ROC curves for Diagnodent and Vistacam were lower than the AUC values obtained for the ICDAS II visual classification. Conclusions According to our results, in the case of archeological teeth, neither Diagnodent nor VistaCam can be regarded as a better diagnostic method than the ICDAS II visual classification of caries.
+C1 [Dabrowski, Pawel] Wroclaw Med Univ, Dept Human Morphol & Embryol, Div Normal Anat, Wroclaw, Poland.
+   [Grzelak, Joanna] Wroclaw Med Univ, Dept Oral Anat, Wroclaw, Poland.
+   [Kulus, Michal] Wroclaw Med Univ, Dept Human Morphol & Embryol, Div Histol & Embryol, Wroclaw, Poland.
+   [Staniowski, Tomasz] Wroclaw Med Univ, Dept Conservat Dent & Pedodont, Wroclaw, Poland.
+RP Dabrowski, P (reprint author), Ul Chalubinskiego 6a, PL-50368 Wroclaw, Poland.
+EM pawel.dabrowski@umed.wroc.pl
+OI Kulus, Michal/0000-0002-3014-6946
+FU Narodowe Centrum Nauki [DEC-2017/25/B/HS3/02006, OPUS 13]; Polish
+   National Center of Science under the project "OPUS 13"; University of
+   Wroclaw
+FX Narodowe Centrum Nauki, Grant/Award Number: OPUS 13, decision no.:
+   DEC-2017/25/B/HS3/02006; Polish National Center of Science under the
+   project "OPUS 13"; University of Wroclaw
+CR Alomari QD, 2015, OPER DENT, V40, P313, DOI 10.2341/14-138-L
+   Aubry M., 2001, PALEOANTHROPOLOGIE P, V4, P138
+   Bachmann L, 2006, APPL SPECTROSC REV, V41, P575, DOI 10.1080/05704920600929498
+   Bahrololoomi Zahra, 2015, J Dent (Tehran), V12, P324
+   Banting D, 2011, 7 IND C, V2011, P161
+   Braga MM, 2009, CARIES RES, V43, P245, DOI 10.1159/000217855
+   Brown E., 2014, J ANTHR, V2014, P1, DOI [10.1155/2014/859153, DOI 10.1155/2014/859153, 10. 1155/2014/859153]
+   Buikstra J. E., 1994, STANDARDS DATA COLLE
+   Buikstra J. E., 1994, ARKANSAS ARCHAEOL SU, V44, P272
+   Burak M., 2007, CMENTARZE DAWNEGO WR
+   Capasso L, 2017, FORENSIC SCI INT, V272, P87, DOI 10.1016/j.forsciint.2017.01.017
+   Chalas R, 2017, FOLIA MORPHOL, V76, P143, DOI 10.5603/FM.a2016.0070
+   Chongsuvivatwong V., 2018, EPIDISPLAY EPIDEMIOL
+   DeWitte SN, 2010, AM J PHYS ANTHROPOL, V142, P341, DOI 10.1002/ajpa.21228
+   DOSS M, 1971, BIOCHIM BIOPHYS ACTA, V237, P356, DOI 10.1016/0304-4165(71)90330-8
+   Iranzo-Cortes JE, 2018, LASER SURG MED, V50, P166, DOI 10.1002/lsm.22751
+   Iranzo-Cortes JE, 2017, LASER MED SCI, V32, P543, DOI 10.1007/s10103-017-2146-5
+   Esclassan R, 2009, ARCH ORAL BIOL, V54, P287, DOI 10.1016/j.archoralbio.2008.11.004
+   Farah RA, 2008, J DENT, V36, P915, DOI 10.1016/j.jdent.2008.07.012
+   Featherstone J D B, 2008, Aust Dent J, V53, P286, DOI 10.1111/j.1834-7819.2008.00064.x
+   Fontana Margherita, 2010, Dent Clin North Am, V54, P423, DOI 10.1016/j.cden.2010.03.007
+   Francescut P, 2006, CARIES RES, V40, P181, DOI 10.1159/000092223
+   Guedes RS, 2014, J DENT RES, V93, P101, DOI 10.1177/0022034514531017
+   Guerra F., 2015, SENSES SCI, V2, P20
+   Hanneman S, 2010, AACN ADV CRIT CARE, V19, P223
+   Hattab F N, 1999, J Esthet Dent, V11, P291, DOI 10.1111/j.1708-8240.1999.tb00413.x
+   Hillson S, 2001, INT J OSTEOARCHAEOL, V11, P249
+   Hillson S., 1998, DENT ANTHR
+   Irish J. D., 2008, TECHNIC APLICATION D
+   Irish J. D., 2015, COMPANION DENT ANTHR
+   Keyes P. H., 2016, J ORAL BIOL NORTHBOR, V3, P4
+   Kohn MJ, 1999, GEOCHIM COSMOCHIM AC, V63, P2737, DOI 10.1016/S0016-7037(99)00208-2
+   Kwiatkowska B., 2011, CHARAKTERYSTYKA ANTR, P25
+   Lalkhen AG, 2008, BJA EDUC, V8, P221, DOI 10.1093/bjaceaccp/mkn041
+   Lucas S, 2010, HOMO, V61, P359, DOI 10.1016/j.jchb.2010.06.003
+   Lussi A, 1999, CARIES RES, V33, P261, DOI 10.1159/000016527
+   Lussi A, 2004, J DENT RES, V83, P80
+   Maggiano C, 2006, MOL CELL PROBE, V20, P154, DOI 10.1016/j.mcp.2005.11.009
+   Marsh Philip D, 2010, Dent Clin North Am, V54, P441, DOI 10.1016/j.cden.2010.03.002
+   McHugh ML, 2012, BIOCHEM MEDICA, V22, P276
+   MEINDL RS, 1985, AM J PHYS ANTHROPOL, V68, P57, DOI 10.1002/ajpa.1330680106
+   Mejare I, 1999, CARIES RES, V33, P93, DOI 10.1159/000016502
+   MOORE W J, 1971, Caries Research, V5, P151
+   Nishigawa G, 2016, PLOS ONE, V11, DOI 10.1371/journal.pone.0147077
+   Nokhbatolfoghahaie H, 2013, J LASERS MED SCI, V4, P159
+   Ozturk E, 2015, PHOTOMED LASER SURG, V33, P61, DOI 10.1089/pho.2014.3831
+   Piontek J., 1996, BIOL POPULACJI PRADZ
+   Pitts N. B., 2016, ICCMS GUIDE PRACTITI, P1
+   Pitts NB, 2016, UNDERSTANDING DENT C
+   Pitts NB, 2017, NAT REV DIS PRIMERS, V3, P1, DOI 10.1038/nrdp.2017.30
+   PRESOTO Cristina Dupim, 2017, Rev. odontol. UNESP, V46, P109, DOI 10.1590/1807-2577.12416
+   R Core team, 2018, R LANG ENV STAT COMP
+   Revelle W., 2018, PSYCH PROCEDURES PER
+   Robin X, 2011, BMC BIOINFORMATICS, V12, DOI 10.1186/1471-2105-12-77
+   Rodrigues JA, 2008, CARIES RES, V42, P297, DOI 10.1159/000148162
+   Seremidi K, 2012, OPER DENT, V37, P234, DOI 10.2341/10-326-L
+   Shakibaie F, 2016, CLIN EXP DENT RES, V2, P226, DOI 10.1002/cre2.42
+   Shakibaie F, 2015, CLIN EXP DENT RES, V1, P74, DOI 10.1002/cre2.13
+   Slaus M, 2011, INT J OSTEOARCHAEOL, V21, P577, DOI 10.1002/oa.1163
+   Staniowski Tomasz, 2011, Roczniki Pomorskiej Akademii Medycznej w Szczecinie, V57, P82
+   Stranska P, 2015, ARCH ORAL BIOL, V60, P62, DOI 10.1016/j.archoralbio.2014.08.002
+   Swardstedt T., 1966, ODONTOLOGICAL ASPECT
+   Tassery H, 2013, AUST DENT J, V58, P40, DOI 10.1111/adj.12049
+   Teo TKY, 2014, CLIN ORAL INVEST, V18, P737, DOI 10.1007/s00784-013-1021-4
+   Tomczyk J., 2012, ODONTOLOGICAL STRESS
+   Tomczyk J, 2014, AM J PHYS ANTHROPOL, V154, P525, DOI 10.1002/ajpa.22542
+   Versiani MA, 2015, UPDATE ROOT CANAL AN, P15, DOI 10. 1007/978-3-319-16456-4_2
+   Wasterlain SN, 2009, AM J PHYS ANTHROPOL, V140, P64, DOI 10.1002/ajpa.21036
+   Watts A, 2001, BRIT DENT J, V190, P309, DOI 10.1038/sj.bdj.4800959a
+   White T. D., 2012, HUMAN OSTEOLOGY
+   WHITTAKER DK, 1981, ARCH ORAL BIOL, V26, P237, DOI 10.1016/0003-9969(81)90136-9
+   Wojcieszak M., 2012, VRATISLAVIA ANTIQUA
+   Zhang D, 2017, CLIN ORAL INVEST, V21, P1007, DOI 10.1007/s00784-016-1852-x
+   Zhang W, 2009, J DENT, V37, P509, DOI 10.1016/j.jdent.2009.03.009
+   Zhou X. H, 2011, STAT METHODS DIAGNOS
+NR 75
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0002-9483
+EI 1096-8644
+J9 AM J PHYS ANTHROPOL
+JI Am. J. Phys. Anthropol.
+PD APR
+PY 2019
+VL 168
+IS 4
+BP 797
+EP 808
+DI 10.1002/ajpa.23785
+PG 12
+WC Anthropology; Evolutionary Biology
+SC Anthropology; Evolutionary Biology
+GA HN4UT
+UT WOS:000460179900013
+PM 30693947
+DA 2019-03-24
+ER
+
+PT J
+AU Curate, F
+   Perinha, A
+   Silva, AM
+   Cunha, E
+   Umbelino, C
+   Nogueira, C
+AF Curate, Francisco
+   Perinha, Andreia
+   Silva, Ana Maria
+   Cunha, Eugenia
+   Umbelino, Claudia
+   Nogueira, Catarina
+TI Metacarpal cortical bone loss and osteoporotic fractures in the Coimbra
+   Identified Skeletal Collection
+SO INTERNATIONAL JOURNAL OF OSTEOARCHAEOLOGY
+LA English
+DT Article
+DE bone fragility; fragility fractures; identified reference skeletal
+   collections; osteoporosis
+ID X-RAY RADIOGRAMMETRY; MAJOR GENE-CONTROL; HIP-FRACTURES; COMPRESSION
+   FRACTURES; AGE; WOMEN; EPIDEMIOLOGY; MENOPAUSE; GEOMETRY; INDEX
+AB There has been considerable progress in recent years in our understanding of the patterns of cortical bone loss in the second metacarpal in archeological skeletal samples. Nevertheless, cortical data from reference skeletal collections are insufficient, and the possible connection of metacarpal cortical parameters with osteoporotic fractures has not been thoroughly addressed. As such, this article aims to identify and explain sex-specific and age-associated metacarpal cortical bone loss in a large sample (N = 302; females: 154/males: 148) from the Coimbra Identified Skeletal Collection. Another objective is to evaluate the association of cortical and demographic features with osteoporotic fractures. Age-related endocortical bone loss is significant in women but not evident in men. Periosteal accretion of the bone is absent in both sexes. Overall, there is a net loss of the cortical bone in women, whereas cortical bone strength seems to be preserved in men. The prevalence of osteoporotic fractures is similar in both sexes, with age at death significantly influencing the probability of exhibiting a fracture. Metacarpal cortical index does not seem to be an independent risk factor for osteoporotic fractures in this sample.
+C1 [Curate, Francisco; Silva, Ana Maria; Umbelino, Claudia] Univ Coimbra, Dept Life Sci, Res Ctr Anthropol & Hlth, Coimbra, Portugal.
+   [Curate, Francisco; Perinha, Andreia; Cunha, Eugenia; Nogueira, Catarina] Univ Coimbra, Dept Life Sci, Lab Forens Anthropol, Coimbra, Portugal.
+   [Silva, Ana Maria; Cunha, Eugenia] Univ Coimbra, Dept Life Sci, Ctr Funct Ecol, Coimbra, Portugal.
+   [Umbelino, Claudia] Univ Algarve, Interdisciplinary Ctr Archaeol & Evolut Human Beh, Faro, Portugal.
+RP Curate, F (reprint author), Univ Coimbra, Dept Life Sci, Res Ctr Anthropol & Hlth, Coimbra, Portugal.
+EM fcurate@uc.pt
+RI Silva, Ana/E-6281-2015
+OI Silva, Ana/0000-0002-1912-6581
+FU Fundacao para a Ciencia e a Tecnologia [SFRH/BPD/74015/2010]
+FX Fundacao para a Ciencia e a Tecnologia, Grant/Award Number:
+   SFRH/BPD/74015/2010
+CR Agarwal S, 2011, ARCHAEOLOGICAL RES F
+   Alvarez-Nebreda ML, 2008, BONE, V42, P278, DOI 10.1016/j.bone.2007.10.001
+   Antunes-Ferreira N, 2018, INT J PALEOPATHOL, V22, P18, DOI 10.1016/j.ijpp.2018.03.009
+   Bach-Mortensen P, 2006, CALCIFIED TISSUE INT, V79, P1, DOI 10.1007/s00223-005-0260-z
+   BARNETT E, 1960, Clin Radiol, V11, P166, DOI 10.1016/S0009-9260(60)80012-8
+   Beauchesne P, 2017, AM J PHYS ANTHROPOL, V164, P41, DOI 10.1002/ajpa.23256
+   Beauchesne P, 2014, INT J OSTEOARCHAEOL, V24, P15, DOI 10.1002/oa.1303
+   Beresheim AC, 2018, AM J HUM BIOL, V30, DOI 10.1002/ajhb.23108
+   Bergot C, 2009, BONE, V45, P435, DOI 10.1016/j.bone.2009.05.025
+   Birkhold AI, 2016, SCI REP-UK, V6, DOI 10.1038/srep23480
+   Black DM, 2001, J CLIN DENSITOM, V4, P5, DOI 10.1385/JCD:4:1:05
+   Bonnick SL, 2010, CURR CLIN PRACT, P371, DOI 10.1007/978-1-60327-499-9_15
+   Boskey AL, 2010, J DENT RES, V89, P1333, DOI 10.1177/0022034510377791
+   Brickley M, 2008, BIOARCHAEOLOGY OF METABOLIC BONE DISEASE, P1, DOI 10.1016/B978-0-12-370486-3.00001-9
+   CARLSON DS, 1976, HUM BIOL, V48, P295
+   Center Jacqueline R, 2010, Curr Osteoporos Rep, V8, P227, DOI 10.1007/s11914-010-0030-3
+   Cho H, 2011, J ANTHROPOL SCI, V89, P109, DOI 10.4436/jass.89007
+   Clarke B, 2008, CLIN J AM SOC NEPHRO, V3, pS131, DOI 10.2215/CJN.04151206
+   CLEVELAND WS, 1979, J AM STAT ASSOC, V74, P829, DOI 10.2307/2286407
+   Cunha E, 1995, ANTROP PORT, V13, P49
+   Cunha E., 2007, SKELETAL SERIES THEI, P23
+   Curate F, 2016, INT J OSTEOARCHAEOL, V26, P366, DOI 10.1002/oa.2418
+   Curate F, 2010, INT J OSTEOARCHAEOL, V20, P591, DOI 10.1002/oa.1076
+   Curate F, 2011, THESIS
+   Curate F, 2017, ANTROPOL PORT, V34, P91, DOI 10.14195/2182-7982_34_5
+   Curate F, 2018, ANTHROPOL ANZ, V75, P233, DOI 10.1127/anthranz/2018/0845
+   Curate F, 2014, J ANTHROPOL SCI, V92, P119, DOI 10.4436/JASS.92003
+   Curate F, 2013, ACTA REUMATOL PORT, V38, P20
+   Curate F, 2011, ANTHROPOL SCI, V119, P87, DOI 10.1537/ase.100211
+   DEWEY JR, 1969, HUM BIOL, V41, P13
+   Doyle LE, 2011, AM J HUM BIOL, V23, P534, DOI 10.1002/ajhb.21185
+   Drusini AG, 2000, INT J OSTEOARCHAEOL, V10, P268, DOI 10.1002/1099-1212(200007/08)10:4<268::AID-OA529>3.0.CO;2-Q
+   Durao C., 2018, REV MED LEG, V9, P27
+   GENANT HK, 1993, J BONE MINER RES, V8, P1137, DOI 10.1002/jbmr.5650080915
+   Gilsanz V, 1997, J CLIN ENDOCR METAB, V82, P1603, DOI 10.1210/jc.82.5.1603
+   Ginsburg E, 2001, AM J HUM BIOL, V13, P398
+   Glencross B, 2011, J ARCHAEOL SCI, V38, P513, DOI 10.1016/j.jas.2010.10.0C4
+   Gosman JH, 2011, AM J PHYS ANTHROPOL, V146, P86, DOI 10.1002/ajpa.21612
+   Grynpas MD, 2003, BONE LOSS AND OSTEOPOROSIS: AN ANTHROPOLOGICAL PERSPECTIVE, P33
+   Han ZH, 1996, J BONE MINER RES, V11, P1967
+   Haugeberg G, 2004, ANN RHEUM DIS, V63, P1331, DOI 10.1136/ard.2003.015065
+   Holzer G, 2009, J BONE MINER RES, V24, P468, DOI 10.1359/JBMR.081108
+   Hyldstrup L, 2001, J CLIN DENSITOM, V4, P299, DOI 10.1385/JCD:4:4:299
+   Ives R, 2005, J ARCHAEOL SCI, V32, P1552, DOI 10.1016/j.jas.2005.04.008
+   Ives R, 2017, INT J OSTEOARCHAEOL, V27, P261, DOI 10.1002/oa.2536
+   Ives R, 2004, INT J OSTEOARCHAEOL, V14, P7, DOI 10.1002/oa.709
+   Ives R, 2007, THESIS
+   Johansson H, 2009, OSTEOPOROSIS INT, V20, P1675, DOI 10.1007/s00198-009-0845-x
+   Karasik D, 2000, GENET EPIDEMIOL, V19, P410, DOI 10.1002/1098-2272(200012)19:4<410::AID-GEPI11>3.0.CO;2-K
+   Khosla S, 2008, ENDOCR REV, V29, P441, DOI 10.1210/er.2008-0002
+   Khosla S, 2013, J GERONTOL A-BIOL, V68, P1226, DOI 10.1093/gerona/gls163
+   Krege John H, 2013, Bonekey Rep, V2, P404, DOI 10.1038/bonekey.2013.138
+   Krishnakumar R, 2016, J CRANIOVERTEBRAL JU, V7, P224, DOI 10.4103/0974-8237.193263
+   Kudlacek S, 2000, MATURITAS, V36, P173, DOI 10.1016/S0378-5122(00)00149-3
+   Kwok AWL, 2013, OSTEOPOROSIS INT, V24, P877, DOI 10.1007/s00198-012-2040-8
+   Lazenby RA, 1998, AM J PHYS ANTHROPOL, V106, P157
+   LAZENBY RA, 1990, AM J PHYS ANTHROPOL, V82, P451, DOI 10.1002/ajpa.1330820407
+   Lopes M, 1999, THESIS
+   Lovell NC, 2016, INT J PALEOPATHOL, V13, P91, DOI 10.1016/j.ijpp.2016.03.001
+   Lovell NC, 1997, YEARB PHYS ANTHROPOL, V40, P139
+   MAYS S, 1996, INT J OSTEOARCHAEOL, V6, P144, DOI 10.1002/(SICI)1099-1212(199603)6:2<144::AID-OA261>3.0.CO;2-G
+   Mays S, 2006, AM J PHYS ANTHROPOL, V131, P352, DOI 10.1002/ajpa.20447
+   Mays S, 1998, INT J OSTEOARCHAEOL, V8, P97, DOI 10.1002/(SICI)1099-1212(199803/04)8:2<97::AID-OA412>3.0.CO;2-U
+   Mays S, 2000, AM J PHYS ANTHROPOL, V112, P349, DOI 10.1002/1096-8644(200007)112:3<349::AID-AJPA6>3.0.CO;2-0
+   Mays SA, 2006, INT J OSTEOARCHAEOL, V16, P415, DOI 10.1002/oa.845
+   Mays S, 2015, CALCIFIED TISSUE INT, V96, P370, DOI 10.1007/s00223-015-9958-8
+   Muller M. E., 1990, COMPREHENSIVE CLASSI, DOI [10.1007/978-3-642-61261-9, DOI 10.1007/978-3-642-61261-9]
+   Nieves JW, 2005, J BONE MINER RES, V20, P529, DOI 10.1359/JBMR.041005
+   PEREIRA MH, 1975, ANN ECON SOC CIVIL, V30, P610, DOI 10.3406/ahess.1975.293631
+   Piemontese M, 2016, AM J PHYSIOL-ENDOC M, V311, pE587, DOI 10.1152/ajpendo.00219.2016
+   POST JB, 1971, POP STUD-J DEMOG, V25, P83, DOI 10.1080/00324728.1971.10405785
+   R Development Core Team, 2018, R LANG ENV STAT COMP
+   Samuel SP, 2009, BONE PATHOLOGY, SECOND EDITION, P69, DOI 10.1007/978-1-59745-347-9_4
+   Santos AL, 1995, ANTROP PORT, V13, P81
+   Sattui SE, 2014, NAT REV ENDOCRINOL, V10, P592, DOI 10.1038/nrendo.2014.125
+   Seeman E, 2008, RHEUMATOLOGY, V47, P2, DOI 10.1093/rheumatology/ken177
+   Seeman E, 2002, LANCET, V359, P1841, DOI 10.1016/S0140-6736(02)08706-8
+   Seeman E, 2013, J GERONTOL A-BIOL, V68, P1218, DOI 10.1093/gerona/glt071
+   Shepherd JA, 2005, OSTEOPOROSIS INT, V16, P1621, DOI 10.1007/s00198-005-1885-5
+   Strom O, 2011, Arch Osteoporos, V6, P59, DOI 10.1007/s11657-011-0060-1
+   Ulijaszek SJ, 1999, BRIT J NUTR, V82, P165, DOI 10.1017/S0007114599001348
+   Umbelino C., 2016, ARCHAEOL ANTHROP SCI, DOI [10.1007/s12520-016-0402-4-4, DOI 10.1007/S12520-016-0402-4-4]
+   VIRTAMA P, 1960, BRIT J RADIOL, V33, P60, DOI 10.1259/0007-1285-33-385-60
+   Virtama P., 1969, ACTA RADIOL        S, VS293, P7
+   Zebaze RMD, 2003, OSTEOPOROSIS INT, V14, P301, DOI 10.1007/s00198-002-1356-1
+   Zebaze R, 2015, J BONE MINER RES, V30, P24, DOI 10.1002/jbmr.2419
+   Zebaze RMD, 2010, LANCET, V375, P1729, DOI 10.1016/S0140-6736(10)60320-0
+NR 87
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1047-482X
+EI 1099-1212
+J9 INT J OSTEOARCHAEOL
+JI Int. J. Osteoarchaeol.
+PD JAN-FEB
+PY 2019
+VL 29
+IS 1
+BP 73
+EP 81
+DI 10.1002/oa.2717
+PG 9
+WC Anthropology; Archaeology
+SC Anthropology; Archaeology
+GA HM4SW
+UT WOS:000459465800007
+DA 2019-03-24
+ER
+
+PT J
+AU Parker, GJ
+   Yip, JM
+   Eerkens, JW
+   Salemi, M
+   Durbin-Johnson, B
+   Kiesow, C
+   Haas, R
+   Buikstra, JE
+   Klaus, H
+   Regan, LA
+   Rocke, DM
+   Phinney, BS
+AF Parker, Glendon J.
+   Yip, Julia M.
+   Eerkens, Jelmer W.
+   Salemi, Michelle
+   Durbin-Johnson, Blythe
+   Kiesow, Caleb
+   Haas, Randall
+   Buikstra, Jane E.
+   Klaus, Haagen
+   Regan, Laura A.
+   Rocke, David M.
+   Phinney, Brett S.
+TI Sex estimation using sexually dimorphic amelogenin protein fragments in
+   human enamel
+SO JOURNAL OF ARCHAEOLOGICAL SCIENCE
+LA English
+DT Article
+DE Sex estimation; Teeth; Enamel; Amelogenin; Proteomics; Mass
+   spectrometry; Paleoproteomics
+ID TARGETED PROTEOMICS; MASS-SPECTROMETRY; HUMAN REMAINS; IDENTIFICATION;
+   DEAMIDATION; PEPTIDES; DEGRADATION; RESIDUES; SPECIFICITY; ASPARAGINYL
+AB Amelogenin genes are located on both X and Y sex chromosomes in humans and are a major focus of DNA-based sex estimation methods. Amelogenin proteins, AMELX_HUMAN and AMELY_HUMAN, are expressed in the tooth organ and play a major role in mineralization of enamel, the most taphonomically resistant, archaeologically persistent human tissue. We describe shotgun liquid chromatography mass spectrometry analysis of 40 enamel samples representing 25 individuals, including modern third molars and archaeological teeth from open-air contexts including permanent adult (400 to 7300 BP) and deciduous teeth (100 to 1000 BP). Peptides specific to the X-chromosome isoform of amelogenin were detected in all samples. Peptides specific to the sexually dimorphic Y-chromosome isoform were also detected in 26 samples from 13 individuals, across all time periods, including previously unsexed deciduous teeth from archaeological contexts. While the signal of each gene product can vary by more than an order of magnitude, we show close agreement between osteological and amelogenin-based sex estimation and thus demonstrate that the protein-based signal can be obtained reliably from open-air archaeological contexts dating to at least 7300 years ago. While samples with AMELY_HUMAN peptides are unambiguously male, samples with no AMELY_HUMAN signal may either be low signal male false negative samples or female samples. In order to estimate sex in these samples we developed a probability curve of female sex as a function of the logarithm of AMELX_HUMAN signal (p < 0.0001) using logistic regression. This is also the first demonstration using proteomics to estimate sex in deciduous teeth and pushes back the application of the method to teeth that are at least 7300 years old.
+C1 [Parker, Glendon J.; Yip, Julia M.] Univ Calif Davis, Dept Environm Toxicol, Rm 4251B Meyer Hall,One Shields Ave, Davis, CA 95616 USA.
+   [Eerkens, Jelmer W.; Haas, Randall] Univ Calif Davis, Dept Anthropol, Davis, CA 95616 USA.
+   [Salemi, Michelle; Phinney, Brett S.] Univ Calif Davis, Prote Core Facil, Davis, CA 95616 USA.
+   [Durbin-Johnson, Blythe; Rocke, David M.] Univ Calif Davis, Dept Publ Hlth Sci, Davis, CA 95616 USA.
+   [Kiesow, Caleb] US Air Force Acad, Dept Biol, Colorado Springs, CO 80840 USA.
+   [Buikstra, Jane E.] Arizona State Univ, Sch Human Evolut & Social Change, Tempe, AZ 85287 USA.
+   [Klaus, Haagen] George Mason Univ, Dept Sociol & Anthropol, Fairfax, VA 22030 USA.
+   [Regan, Laura A.] Dept Def, Off Net Assessment, Washington, DC 20301 USA.
+RP Parker, GJ (reprint author), Univ Calif Davis, Dept Environm Toxicol, Rm 4251B Meyer Hall,One Shields Ave, Davis, CA 95616 USA.
+EM gjparker@ucdavis.edu; jmyip@ucdavis.edu; jweerkens@ucdavis.edu;
+   msalemi@ucdavis.edu; bpdurbin@ucdavis.edu; caleb.kiesow@usuhs.edu;
+   wrhaas@ucdavis.edu; buikstra@asu.edu; hklaus@gmu.edu;
+   laura.a.regan2.mil@mail.mil; dmrocke@ucdavis.edu; bsphinney@ucdavis.edu
+RI Phinney, Brett/S-6404-2016
+OI Phinney, Brett/0000-0003-3870-3302
+FU National Institutes of Justice/Department of Justice [DN-BX-K065];
+   National Science Foundation [BCS-1318532]
+FX The authors wish to thank Dr. Bethany Livermore-Turner (Georgia State
+   University) for samples and advice on study design and Drs. Robert H
+   Rice and Tammy Bounasera for advice on editing. For the California
+   samples, we thank Most Likely Descendants Ramona Garibay and Katherine
+   Perez for supporting the work, and William Self Associates, Far Western
+   Anthropological Research Group, and the UC Davis Anthropology Museum for
+   providing access to the samples. GJP acknowledges the support of the
+   National Institutes of Justice/Department of Justice (DN-BX-K065). JWE
+   acknowledges the support of the National Science Foundation
+   (#BCS-1318532).
+CR Aebersold R, 2016, NATURE, V537, P347, DOI 10.1038/nature19949
+   Agresti A., 2013, CATEGORICAL DATA ANA
+   Allentoft ME, 2012, P ROY SOC B-BIOL SCI, V279, P4724, DOI 10.1098/rspb.2012.1745
+   Arena S, 2014, MASS SPECTROM REV, V33, P49, DOI 10.1002/mas.21378
+   Ballantyne J, 2013, DNA PROFILING SEMEN
+   Buckley M, 2016, INT J MOL SCI, V17, DOI 10.3390/ijms17040445
+   Buikstra J. E., 1994, STANDARDS DATA COLLE
+   Cabiscol E, 2014, MASS SPECTROM REV, V33, P21, DOI 10.1002/mas.21375
+   Cappellini E, 2012, J PROTEOME RES, V11, P917, DOI 10.1021/pr200721u
+   Carneiro KMM, 2016, SCI REP-UK, V6, DOI 10.1038/srep23105
+   Castiblanco GA, 2015, EUR J ORAL SCI, V123, P390, DOI 10.1111/eos.12214
+   CLARKE S, 1987, INT J PEPT PROT RES, V30, P808, DOI 10.1111/j.1399-3011.1987.tb03390.x
+   Demarchi B, 2016, ELIFE, V5, DOI 10.7554/eLife.17092
+   Deutsch EW, 2017, NUCLEIC ACIDS RES, V45, pD1100, DOI 10.1093/nar/gkw936
+   Doerr A, 2013, NAT METHODS, V10, P23, DOI 10.1038/nmeth.2286
+   Eerkens J. W., 2016, P SOC CALIF ARCHAEOL, V30, P281
+   Eerkens JW, 2017, CALIF ARCHAOL, V9, P199, DOI 10.1080/1947461X.2017.1391469
+   Eerkens JW, 2016, AM J PHYS ANTHROPOL, V159, P116, DOI 10.1002/ajpa.22843
+   Eerkens JW, 2014, J ARCHAEOL SCI, V41, P474, DOI 10.1016/j.jas.2013.09.014
+   FINCHAM AG, 1991, CALCIFIED TISSUE INT, V48, P288, DOI 10.1007/BF02556382
+   FIRTH D, 1993, BIOMETRIKA, V80, P27, DOI 10.2307/2336755
+   Gallien S, 2015, MOL CELL PROTEOMICS, V14, P1630, DOI 10.1074/mcp.O114.043968
+   Garvin Alex M, 2012, Investig Genet, V3, P25, DOI 10.1186/2041-2223-3-25
+   GEIGER T, 1987, J BIOL CHEM, V262, P785
+   GORDON CC, 1981, AM ANTIQUITY, V46, P566, DOI 10.2307/280601
+   Greenwald AM, 2016, J ARCHAEOL SCI-REP, V7, P146, DOI 10.1016/j.jasrep.2016.04.003
+   Haas R, 2017, ROY SOC OPEN SCI, V4, DOI 10.1098/rsos.170331
+   Haas WR, 2015, ANTIQUITY, V89, P1297, DOI 10.15184/aqy.2015.100
+   Iuliano-Burns S, 2009, J CLIN ENDOCR METAB, V94, P1638, DOI 10.1210/jc.2008-1522
+   Keshishian H, 2007, MOL CELL PROTEOMICS, V6, P2212, DOI 10.1074/mcp.M700354-MCP200
+   Kosmidis I., 2017, BRGLM BIAS REDUCTION
+   Krishan K, 2016, FORENSIC SCI INT, V261, DOI 10.1016/j.forsciint.2016.02.007
+   Kwak SY, 2016, J DENT RES, V95, P1511, DOI 10.1177/0022034516662814
+   LeDell E., 2014, CVAUC CROSS VALIDATE
+   Legg KM, 2017, ELECTROPHORESIS, V38, P833, DOI 10.1002/elps.201600352
+   Li SS, 2016, PLOS ONE, V11, DOI 10.1371/journal.pone.0147044
+   Liebler DC, 2013, BIOCHEMISTRY-US, V52, P3797, DOI 10.1021/bi400110b
+   Lindahl T, 1996, PHILOS T ROY SOC B, V351, P1529, DOI 10.1098/rstb.1996.0139
+   Loreille O, 2018, GENES-BASEL, V9, DOI 10.3390/genes9030135
+   Madel MB, 2016, FORENSIC SCI INT-GEN, V25, P166, DOI 10.1016/j.fsigen.2016.09.001
+   Mallick P, 2010, NAT BIOTECHNOL, V28, P695, DOI 10.1038/nbt.1658
+   Mazumder P, 2014, FRONT PHYSIOL, V5, DOI 10.3389/fphys.2014.00274
+   McFadden C, 2016, AM J PHYS ANTHROPOL, V159, P182, DOI 10.1002/ajpa.22839
+   Mitsiadis TA, 2014, FRONT PHYSIOL, V5, DOI 10.3389/fphys.2014.00477
+   Mittnik A, 2016, PLOS ONE, V11, DOI 10.1371/journal.pone.0163019
+   Moradian-Oldak J, 1998, BIOPOLYMERS, V46, P225, DOI 10.1002/(SICI)1097-0282(19981005)46:4<225::AID-BIP4>3.0.CO;2-R
+   Nesvizhskii AI, 2010, J PROTEOMICS, V73, P2092, DOI 10.1016/j.jprot.2010.08.009
+   Ottoni C, 2017, TAPHONOMY HUMAN REMA, P65
+   PHENICE TW, 1969, AM J PHYS ANTHROPOL, V30, P297, DOI 10.1002/ajpa.1330300214
+   Porto IM, 2011, EUR J ORAL SCI, V119, P83, DOI 10.1111/j.1600-0722.2011.00885.x
+   Porto IM, 2011, J ARCHAEOL SCI, V38, P3596, DOI 10.1016/j.jas.2011.08.030
+   Prajapati S, 2016, BIOMATERIALS, V75, P260, DOI 10.1016/j.biomaterials.2015.10.031
+   R Core Team, 2018, COMPUTING
+   Regan LA, 2006, THESIS
+   Robinson NE, 2002, P NATL ACAD SCI USA, V99, P5283, DOI 10.1073/pnas.082102799
+   SALIDO EC, 1992, AM J HUM GENET, V50, P303
+   Schweitzer MH, 2009, SCIENCE, V324, P626, DOI 10.1126/science.1165069
+   Searle BC, 2015, MOL CELL PROTEOMICS, V14, P2331, DOI 10.1074/mcp.M115.051300
+   Shi TJ, 2016, PROTEOMICS, V16, P2160, DOI 10.1002/pmic.201500449
+   Simmer JP, 1995, CONNECT TISSUE RES, V32, P131, DOI 10.3109/03008209509013715
+   Sing T, 2005, BIOINFORMATICS, V21, P3940, DOI 10.1093/bioinformatics/bti623
+   Skoglund P, 2013, J ARCHAEOL SCI, V40, P4477, DOI 10.1016/j.jas.2013.07.004
+   Solazzo C, 2014, ANAL CHEM, V86, P567, DOI 10.1021/ac4026362
+   Spradley MK, 2011, J FORENSIC SCI, V56, P289, DOI 10.1111/j.1556-4029.2010.01635.x
+   Steen H, 2004, NAT REV MOL CELL BIO, V5, P699, DOI 10.1038/nrm1468
+   Stewart NA, 2017, P NATL ACAD SCI USA, V114, P13649, DOI 10.1073/pnas.1714926115
+   Stewart NA, 2016, RSC ADV, V6, P61673, DOI 10.1039/c6ra05120k
+   Tarasevich BJ, 2007, J CRYST GROWTH, V304, P407, DOI 10.1016/j.jcrysgro.2007.02.035
+   TYLERCROSS R, 1991, J BIOL CHEM, V266, P22549
+   van Doorn NL, 2012, RAPID COMMUN MASS SP, V26, P2319, DOI 10.1002/rcm.6351
+   Wadsworth C, 2014, RAPID COMMUN MASS SP, V28, P605, DOI 10.1002/rcm.6821
+   Waldron T, 1987, DEATH DECAY RECONSTR, P55
+   Welker F, 2016, P NATL ACAD SCI USA, V113, P11162, DOI 10.1073/pnas.1605834113
+   Welker F, 2015, NATURE, V522, P81, DOI 10.1038/nature14249
+   White T. D., 2012, HUMAN OSTEOLOGY
+   Wilson J, 2012, ANAL CHEM, V84, P9041, DOI 10.1021/ac301333t
+   Woods AG, 2014, ADV EXP MED BIOL, V806, P1, DOI 10.1007/978-3-319-06068-2_1
+   Zhang JJ, 2012, ADV MATER RES-SWITZ, V566, P11, DOI 10.4028/www.scientific.net/AMR.566.11
+   Zhu L, 2014, FRONT PHYSIOL, V5, DOI 10.3389/fphys.2014.00268
+NR 79
+TC 0
+Z9 0
+U1 3
+U2 3
+PU ACADEMIC PRESS LTD- ELSEVIER SCIENCE LTD
+PI LONDON
+PA 24-28 OVAL RD, LONDON NW1 7DX, ENGLAND
+SN 0305-4403
+EI 1095-9238
+J9 J ARCHAEOL SCI
+JI J. Archaeol. Sci.
+PD JAN
+PY 2019
+VL 101
+BP 169
+EP 180
+DI 10.1016/j.jas.2018.08.011
+PG 12
+WC Anthropology; Archaeology; Geosciences, Multidisciplinary
+SC Anthropology; Archaeology; Geology
+GA HI7LZ
+UT WOS:000456639000016
+DA 2019-03-24
+ER
+
+PT J
+AU Ito, T
+   Kimura, R
+   Ryukoden, A
+   Tsuchiya, N
+   Murayama, S
+   Ishda, H
+AF Ito, Tsuyoshi
+   Kimura, Ryosuke
+   Ryukoden, Azusa
+   Tsuchiya, Nanae
+   Murayama, Sadayuki
+   Ishda, Hajime
+TI Computed tomography examinations of the surface and internal
+   morphologies of the upper face in Ryukyu Islanders and mainland Japanese
+   population
+SO ANTHROPOLOGICAL SCIENCE
+LA English
+DT Article
+DE computed tomography; eyeball; morphological interaction
+ID GENOME-WIDE ASSOCIATION; FACIAL MORPHOLOGY; OKINAWA; APPROXIMATION;
+   DIMENSIONS; SIGNATURES; FLATNESS; HISTORY; EYEBALL
+AB Using computed tomography, we examined the surface and internal morphologies of the upper face of people living on the Ryukyu Islands and mainland Japanese, focusing on the nasal root protrusion and eyeball position. The results showed that the nasal root protrusion on the surface was influenced by a combination of changes in both hard and soft tissues, such as skeletal nasal protrusion, eyeball recession, and skin thickness. The eyeball position became more posterior as the orbital cavity height and depth increased. Compared with people originating from mainland Japan, Ryukyu Islanders had a more prominent nasal root at both surface and skeletal levels, and a lower orbital rim relative to its internal height. However, a significant difference in the eyeball position and skin thickness was not detected. Therefore, the skeletal nasal root protrusion, not soft tissue configuration, is likely to account for the difference in the surface nasal root protrusion between the two populations. These findings will contribute to a better understanding of the association between hard and soft tissue configurations and the diversification of human facial features at the individual and population levels.
+C1 [Ito, Tsuyoshi] Kyoto Univ, Primate Res Inst, Dept Evolut & Phylogeny, Inuyama, Aichi 4848506, Japan.
+   [Kimura, Ryosuke; Ryukoden, Azusa; Ishda, Hajime] Univ Ryukyus, Dept Human Biol & Anat, Grad Sch Med, Nishihara, Okinawa 9030215, Japan.
+   [Tsuchiya, Nanae; Murayama, Sadayuki] Univ Ryukyus, Dept Radiol, Grad Sch Med, Nishihara, Okinawa 9030215, Japan.
+RP Ito, T (reprint author), Kyoto Univ, Primate Res Inst, Dept Evolut & Phylogeny, Inuyama, Aichi 4848506, Japan.; Kimura, R (reprint author), Univ Ryukyus, Dept Human Biol & Anat, Grad Sch Med, Nishihara, Okinawa 9030215, Japan.
+EM ito.tsuyoshi.3a@kyoto-u.ac.jp; rkimura@med.u-ryukyu.ac.jp
+FU JSPS [25251042]; Keihanshin Consortium for Fostering the Next Generation
+   of Global Leaders in Research (K-CONNEX)
+FX We express our great thanks to the radiological technologists and staffs
+   at the University Hospital, University of the Ryukyus for CT scanning
+   and their help with data acquisition. We also thank Mutsumi Isa for her
+   help with data management. We are grateful to the people who
+   participated in this study. We also thank Masato Nakatsukasa, an
+   anonymous associate editor, and two reviewers for their constructive
+   comments that greatly improved this paper. This study was supported by
+   the Grants-in-Aid for Scientific Research from JSPS (25251042 to H.I.)
+   and the Keihanshin Consortium for Fostering the Next Generation of
+   Global Leaders in Research (K-CONNEX), established by Human Resource
+   Development Program for Science and Technology, MEXT (to T.I.).
+CR Adhikari K, 2016, NAT COMMUN, V7, DOI 10.1038/ncomms11616
+   BAILEY RC, 1990, SYST ZOOL, V39, P124, DOI 10.2307/2992450
+   Bekerman I, 2014, J OPHTHALMOL, DOI 10.1155/2014/503645
+   Cole JB, 2016, PLOS GENET, V12, DOI 10.1371/journal.pgen.1006174
+   Dodo Y, 2000, ANTHROPOL SCI, V108, P183, DOI 10.1537/ase.108.183
+   Dodo Y, 1998, ANTHROPOL SCI, V106, P99, DOI 10.1537/ase.106.99
+   Fukase H, 2012, ANTHROPOL SCI, V120, P23, DOI 10.1537/ase.110411
+   Fukumine T., 2001, YACCHI NO GAMA KANJI, P345
+   Fukumine T, 2006, ANTHROPOL SCI, V114, P141, DOI 10.1537/ase.050606
+   Guo J, 2014, J HUM EVOL, V75, P143, DOI 10.1016/j.jhevol.2014.08.001
+   Guyomarc'h P, 2014, J FORENSIC SCI, V59, P1502, DOI 10.1111/1556-4029.12547
+   Hanihara K, 1991, JAPAN REV, V2, P1
+   Harvati K, 2006, ANAT REC PART A, V288A, P1225, DOI 10.1002/ar.a.20395
+   Hubbe M, 2009, ANAT REC, V292, P1720, DOI 10.1002/ar.20976
+   Kawakubo Y, 2007, ANTHROPOL SCI, V115, P191, DOI 10.1537/ase.061023
+   Kim SR, 2016, FORENSIC SCI INT, V261, DOI 10.1016/j.forsciint.2016.01.031
+   Kouchi M., 2006, ANTHROPOL SCI, V114, P45
+   LEIGHTON DA, 1972, ACTA OPHTHALMOL, V50, P815
+   Liu F., 2012, PLOS GENET, V8
+   Miyazato E, 2014, AM J HUM BIOL, V26, P538, DOI 10.1002/ajhb.22560
+   Paternoster L, 2012, AM J HUM GENET, V90, P478, DOI 10.1016/j.ajhg.2011.12.021
+   R Core team, 2018, R LANG ENV STAT COMP
+   Read AP, 1997, J MED GENET, V34, P656, DOI 10.1136/jmg.34.8.656
+   Roseman CC, 2007, BIOESSAYS, V29, P1185, DOI 10.1002/bies.20678
+   Sato T, 2014, MOL BIOL EVOL, V31, P2929, DOI 10.1093/molbev/msu230
+   SHROUT PE, 1979, PSYCHOL BULL, V86, P420, DOI 10.1037/0033-2909.86.2.420
+   Stephan CN, 2009, J FORENSIC SCI, V54, P267, DOI 10.1111/j.1556-4029.2008.00982.x
+   von Cramon-Taubadel N, 2009, EVOL ANTHROPOL, V18, P237, DOI 10.1002/evan.20233
+   Watanabe K, 2014, ORTHOD WAVES, V73, P69, DOI 10.1016/j.odw.2014.06.001
+   Weston EM, 2007, PLOS ONE, V2, DOI 10.1371/journal.pone.0000710
+   Yamauchi T, 2016, ANTHROPOL SCI, V124, P45, DOI 10.1537/ase.151206
+NR 31
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ANTHROPOLOGICAL SOC NIPPON
+PI TOKYO
+PA C/O GALILEO INC, URBAN-OHTSUKA BLDG, 3RD FL, 3-21-10 KITA-OHTSUKA,
+   TOSHIMA-KU, TOKYO, 170-0004, JAPAN
+SN 0918-7960
+EI 1348-8570
+J9 ANTHROPOL SCI
+JI Anthropol. Sci.
+PD DEC
+PY 2018
+VL 126
+IS 3
+BP 123
+EP 133
+DI 10.1537/ase.180922
+PG 11
+WC Anthropology; Evolutionary Biology
+SC Anthropology; Evolutionary Biology
+GA HG1WY
+UT WOS:000454753000001
+DA 2019-03-24
+ER
+
+PT J
+AU Timpson, A
+   Gillis, RE
+   Manning, K
+   Thomas, MG
+AF Timpson, Adrian
+   Gillis, Rosalind E.
+   Manning, Katie
+   Thomas, Mark G.
+TI Modelling caprine age-at-death profiles using the Gamma distribution
+SO JOURNAL OF ARCHAEOLOGICAL SCIENCE
+LA English
+DT Article
+DE GammaModel; Gamma distribution; Caprines; Age-at-death profiles; MCMC;
+   Model comparison; Neolithic
+ID NEAR-EAST; EUROPE; MILK; MORTALITY; GOATS; SHEEP
+AB Age-at-death profiles constructed from archaeozoological data have been used for decades to infer the goals of prehistoric herd management strategies. Several 'ideal' profiles have been proposed as models for the optimal kill-off profiles that represent specific husbandry strategies, such as maximising milk or meat yields, which can then be compared to archaeological profiles. We evaluate the goodness of fit of ten caprine archaeological age at-death profiles to five published idealised profiles, whilst properly accounting for sampling error and data where the age classes of observations are uncertain. We statistically reject all tested idealised profiles as plausible models to explain the data, and instead propose that a Gamma distribution provides a simpler and better general model to represent possible herd management strategies. Furthermore, we show that archaeological profiles can be summarised well using Gamma parameters, which allow multiple datasets (and models) to be easily compared and graphically represented together with minimal information loss, thus allowing clearer inferences to be drawn. Finally, we calculate likelihood distributions of the Gamma parameters, which provide confidence intervals that fully account for the uncertainties from small sample sizes and uncertain age classes. We have developed an R package 'GammaModel' to enable users to apply these tools to any age-at-death count data.
+C1 [Timpson, Adrian; Thomas, Mark G.] UCL, Gower St, London WC1E 6BT, England.
+   [Gillis, Rosalind E.] Univ Kiel, Inst Ur & Fruhgeschichte, Johanna Mestorf Str 2-6, D-24098 Kiel, Germany.
+   [Manning, Katie] Kings Coll London, London WC2R 2LS, England.
+   [Gillis, Rosalind E.] Sorbonne Univ, Museum Natl Hist Nat, CNRS, Archeozool Archeobot Soc Prat & Environm,UMR 7209, CP56,55 Rue Buffon, F-75005 Paris, France.
+   [Thomas, Mark G.] UCL, UCL Genet Inst, Gower St, London WC1E 6BT, England.
+RP Timpson, A (reprint author), UCL, Gower St, London WC1E 6BT, England.
+EM a.timpson@ucl.ac.uk
+FU NeoMilk project (ERC) [FP7-IDEAS-ERC/324202]
+FX This research was funded by the NeoMilk project (ERC advanced grant
+   awarded to R.P. Evershed: FP7-IDEAS-ERC/324202). We are ;grateful to
+   Jean Guiliane, Isabelle Carrere, Maria Sana Segui, Giovanna Radi,
+   Joachim Pechtl, Henriette Obermaier, Alexandra Anders and Erich Pucher
+   for allowing access to the archaeozoological material. We acknowledge
+   the use of the UCL Legion High-Performance Computing Facility
+   (Legion@UCL), and associated support services, in the completion of this
+   work. We also thank Pascale Gerbault, Alan Outram, Marie Balasse, Anna
+   Rudzinski and especially Jean-Denis Vigne and Yoan Diekmann for their
+   useful discussions and advice, and to Mike Charlton and three anonymous
+   reviewers for their constructive feedback.
+CR AKAIKE H, 1974, IEEE T AUTOMAT CONTR, VAC19, P716, DOI 10.1109/TAC.1974.1100705
+   Arbuckle BS, 2014, PLOS ONE, V9, DOI 10.1371/journal.pone.0099845
+   Balasse M, 2003, ANTHROPOZOOLOGICA, P3
+   Cilingiroglu C, 2009, J MEDITERR ARCHAEOL, V22, P3, DOI 10.1558/jmea.v22i1.3
+   Coward F, 2008, J ARCHAEOL SCI, V35, P42, DOI 10.1016/j.jas.2007.02.022
+   Davies M., 2015, EC SPECIALISATION RE, V2
+   Ducos P., 1968, ORIGINE ANIMAUX DOME
+   Gerbault P, 2016, J ARCHAEOL SCI, V71, P24, DOI 10.1016/j.jas.2016.05.001
+   Gillis RE., 2017, P BIOL SCI, V284
+   Grant A., 1982, BAR BRIT SERIES, V109, P91
+   Greenfield HJ, 2015, WORLD ARCHAEOL, V47, P792, DOI 10.1080/00438243.2015.1029076
+   Guilaine J., 2001, ZEPHYRUS, V53-54, P267
+   Halstead P., 1998, ANTHROPOZOOLOGICA, V27, P3
+   HASTINGS WK, 1970, BIOMETRIKA, V57, P97, DOI 10.1093/biomet/57.1.97
+   HELMER D., 1991, IDENTITE CHASSEEN, V4, P343
+   Helmer D., 2005, ANTHROPOZOOLOGICA, V40, P167
+   Helmer Daniel, 2007, Anthropozoologica, V42, P41
+   HIGHAM CFW, 1969, CURR ANTHROPOL, V10, P139, DOI 10.1086/201065
+   Manning K., 2013, ORIGINS SPREAD DOMES, P237
+   Marciniak A, 2013, ORIGINS SPREAD STOCK, P221
+   Marom N, 2009, J ARCHAEOL SCI, V36, P1184, DOI 10.1016/j.jas.2009.01.007
+   Mellor DJ, 2004, VET J, V168, P118, DOI 10.1016/j.tvjl.2003.08.004
+   PAYNE S, 1987, J ARCHAEOL SCI, V14, P609, DOI 10.1016/0305-4403(87)90079-3
+   PAYNE S., 1973, ANATOLIAN STUDIES, V23, P281, DOI DOI 10.2307/3642547
+   Pearson K, 1900, PHILOS MAG, V50, P157, DOI 10.1080/14786440009463897
+   Perles C., 2005, DID FARMING REACH EU, P275
+   Peters Joris, 2000, Paleorient, V25, P27
+   R Core team, 2018, R LANG ENV STAT COMP
+   Redding R, 1981, DECISION MAKING SUBS
+   Rowley-Conwy P, 2013, ORIGINS SPREAD DOMES
+   SCHWARZ G, 1978, ANN STAT, V6, P461, DOI 10.1214/aos/1176344136
+   Sikana P. M., 1993, SUBSISTENCE SPECIALI
+   Spiteria CD, 2016, P NATL ACAD SCI USA, V113, P13594, DOI 10.1073/pnas.1607810113
+   Vigne Jean-Denis, 2007, Anthropozoologica, V42, P9
+   Zeder Melinda A., 2000, Paleorient, V25, P11, DOI 10.3406/paleo.1999.4684
+NR 35
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ACADEMIC PRESS LTD- ELSEVIER SCIENCE LTD
+PI LONDON
+PA 24-28 OVAL RD, LONDON NW1 7DX, ENGLAND
+SN 0305-4403
+EI 1095-9238
+J9 J ARCHAEOL SCI
+JI J. Archaeol. Sci.
+PD NOV
+PY 2018
+VL 99
+BP 19
+EP 26
+DI 10.1016/j.jas.2018.08.015
+PG 8
+WC Anthropology; Archaeology; Geosciences, Multidisciplinary
+SC Anthropology; Archaeology; Geology
+GA HA6HQ
+UT WOS:000450381000003
+DA 2019-03-24
+ER
+
+PT S
+AU Otarola-Castillo, E
+   Torquato, MG
+AF Otarola-Castillo, Erik
+   Torquato, Melissa G.
+BE Brenneis, D
+   Strier, KB
+TI Bayesian Statistics in Archaeology
+SO ANNUAL REVIEW OF ANTHROPOLOGY, VOL 47
+SE Annual Review of Anthropology
+LA English
+DT Article; Book Chapter
+DE Bayesian inference; R-statistics; frequentist; hypothesis testing;
+   archaeostatistics
+ID IRON-AGE; RADIOCARBON-DATES; C-14 CHRONOLOGY; SOUTHEAST-ASIA;
+   UNITED-STATES; BRONZE-AGE; MODEL; SETTLEMENT; INFORMATION; POPULATIONS
+AB Null hypothesis significance testing (NHST) is the most common statistical framework used by scientists, including archaeologists. Owing to increasing dissatisfaction, however, Bayesian inference has become an alternative to these methods. In this article, we review the application of Bayesian statistics to archaeology. We begin with a simple example to demonstrate the differences in applying NHST and Bayesian inference to an archaeological problem. Next, we formally define NHST and Bayesian inference, provide a brief historical overview of their development, and discuss the advantages and limitations of each method. A review of Bayesian inference and archaeology follows, highlighting the applications of Bayesian methods to chronological, bioarchaeological, zooarchaeological, ceramic, lithic, and spatial analyses. We close by considering the future applications of Bayesian statistics to archaeological research.
+C1 [Otarola-Castillo, Erik; Torquato, Melissa G.] Purdue Univ, Dept Anthropol, W Lafayette, IN 47907 USA.
+RP Otarola-Castillo, E (reprint author), Purdue Univ, Dept Anthropol, W Lafayette, IN 47907 USA.
+EM eoc@purdue.edu; mtorquat@purdue.edu
+CR Acabado S, 2009, ANTIQUITY, V83, P801, DOI 10.1017/S0003598X00099002
+   AITCHISON T, 1991, ANTIQUITY, V65, P108, DOI 10.1017/S0003598X00079345
+   Alberti G, 2013, J ARCHAEOL SCI, V40, P2502, DOI 10.1016/j.jas.2012.08.014
+   Arakawa F, 2013, AM ANTIQUITY, V78, P147, DOI 10.7183/0002-7316.78.1.147
+   Arias V., 2013, THESIS U N M ALBUQUE
+   Athens JS, 2014, AM ANTIQUITY, V79, P144, DOI 10.7183/0002-7316.79.1.144
+   Bayes T, 1763, PHILOS T ROY SOC LON, V53, P370, DOI DOI 10.1098/RSTL.1763.0053
+   Bayliss A, 1997, P BRIT ACAD, V92, P39
+   Bayliss A, 2015, WORLD ARCHAEOL, V47, P677, DOI 10.1080/00438243.2015.1067640
+   Bayliss A, 2015, J WORLD PREHIST, V28, P1, DOI 10.1007/s10963-015-9083-7
+   Bayliss A, 2009, RADIOCARBON, V51, P123, DOI 10.1017/S0033822200033750
+   Beland SL, 2018, J ARCHAEOL SCI-REP, V17, P235, DOI 10.1016/j.jasrep.2017.11.015
+   Benjamin DJ, 2018, NAT HUM BEHAV, V2, P6, DOI 10.1038/s41562-017-0189-z
+   BINFORD LR, 1964, AM ANTIQUITY, V29, P425, DOI 10.2307/277978
+   Bonneau A, 2011, RADIOCARBON, V53, P419, DOI 10.1017/S003382220003455X
+   Borradaile GJ, 2003, GEOPHYS RES LETT, V30, DOI 10.1029/2003GL016977
+   Bronk Ramsey C., 1994, ARCHAEOL COMPUT NEWS, V41, pe16
+   Brotherton P, 2013, NAT COMMUN, V4, DOI 10.1038/ncomms2656
+   Buck C., 1993, COMPUTING PAST CAA92, P293
+   Buck C. E, 1996, BAYESIAN APPROACH IN
+   Buck C.E., 1999, INTERNET ARCHAEOLOGY, V7, P1, DOI DOI 10.11141/IA.7.1
+   Buck CE, 2007, QUATERNARY SCI REV, V26, P2031, DOI 10.1016/j.quascirev.2007.06.013
+   BUCK CE, 1991, ANTIQUITY, V65, P808, DOI 10.1017/S0003598X00080534
+   BUCK CE, 1992, J ARCHAEOL SCI, V19, P497, DOI 10.1016/0305-4403(92)90025-X
+   Burley DV, 2014, RADIOCARBON, V56, P295, DOI 10.2458/56.16482
+   Cadwallader L, 2015, RADIOCARBON, V57, P765, DOI 10.2458/azu_rc.57.18343
+   Canning S., 2003, THESIS LA TROBE U BU
+   Capuzzo G, 2015, WORLD ARCHAEOL, V47, P622, DOI 10.1080/00438243.2015.1053571
+   Carlson DL, 2017, QUANTITATIVE METHODS
+   Carpenter B, 2017, J STAT SOFTW, V76, P1, DOI 10.18637/jss.v076.i01
+   Cherkinsky A, 2013, RADIOCARBON, V55, P771, DOI 10.1017/S0033822200057933
+   Chirikure S, 2013, ANTIQUITY, V87, P854, DOI 10.1017/S0003598X00049516
+   Clarke DL, 1968, ANAL ARCHAEOLOGY
+   Coltrain JB, 2013, J ARCHAEOL SCI, V40, P4711, DOI 10.1016/j.jas.2013.07.012
+   Cooper DB, 2001, P 2001 C VIRT REAL A, P241
+   Coqueugniot H, 2010, AM J PHYS ANTHROPOL, V142, P655, DOI 10.1002/ajpa.21312
+   Cowgill GL, 2015, ANNU REV ANTHROPOL, V44, P1, DOI 10.1146/annurev-anthro-102214-013814
+   COWGILL GL, 1993, AM ANTHROPOL, V95, P551, DOI 10.1525/aa.1993.95.3.02a00010
+   Cowgill GL, 2001, BRIT ARCHAEOL REP IN, VS931, P35
+   Cowgill GL, 1989, ARCHAEOLOGICAL THOUG, P74
+   Culleton BJ, 2012, J ARCHAEOL SCI, V39, P1572, DOI 10.1016/j.jas.2011.12.015
+   Dee M, 2013, P ROY SOC A-MATH PHY, V469, DOI 10.1098/rspa.2013.0395
+   Diez David M, 2017, OPENINTRO STAT
+   Dodge DR, 2011, THESIS U SHEFFIELD
+   Edinborough K, 2005, PAP INST ARCHAEOL, V16, P50, DOI 10.5334/pia.248
+   Edinborough KSA, 2005, THESIS U COLL LONDON
+   Faith JT, 2013, J BIOGEOGR, V40, P359, DOI 10.1111/j.1365-2699.2012.02796.x
+   Fanning P., 2004, ASIAN PERSPECT, V43, P34
+   Fernandes R, 2016, ARCHAEOMETRY, V58, P500, DOI 10.1111/arcm.12193
+   Fernandes R, 2015, AM J PHYS ANTHROPOL, V158, P325, DOI 10.1002/ajpa.22788
+   de Pablo JFL, 2015, J ARCHAEOL METHOD TH, V22, P559, DOI 10.1007/s10816-013-9198-z
+   Finkelstein I, 2015, RADIOCARBON, V57, P891, DOI 10.2458/azu_rc.57.18336
+   Finkelstein I, 2010, ANTIQUITY, V84, P374, DOI 10.1017/S0003598X00066643
+   Fisher DC, 1987, EVOLUTION HUMAN HUNT, P309
+   Fisher R. A., 1929, P SOC PSYCHICAL RES, V39, P189
+   Fisher R. A., 1925, STAT METHODS RES WOR
+   Fisher RA, 1935, NATURE, V136, P474
+   Fletcher M, 2005, DIGGING NUMBERS ELEM
+   Ford A, 2009, ANN ASSOC AM GEOGR, V99, P496, DOI 10.1080/00045600902931785
+   Fu QM, 2013, CURR BIOL, V23, P553, DOI 10.1016/j.cub.2013.02.044
+   Fu QM, 2013, P NATL ACAD SCI USA, V110, P2223, DOI 10.1073/pnas.1221359110
+   Gearey BR, 2009, J ARCHAEOL SCI, V36, P1477, DOI 10.1016/j.jas.2009.03.003
+   Gelman A., 2014, BAYESIAN DATA ANAL
+   Gill J, 1999, POLIT RES QUART, V52, P647, DOI 10.1177/106591299905200309
+   Goring S, 2012, QUATERNARY SCI REV, V48, P54, DOI 10.1016/j.quascirev.2012.05.019
+   Gowland RL, 2002, J ARCHAEOL SCI, V29, P677, DOI 10.1006/jasc.2001.0776
+   Greco C, 2014, RADIOCARBON, V56, P1093, DOI 10.2458/56.16928
+   Griffiths S, 2014, ARCHAEOL J, V171, P2, DOI 10.1080/00665983.2014.11078260
+   Hamilton WD, 2015, WORLD ARCHAEOL, V47, P642, DOI 10.1080/00438243.2015.1053976
+   Harris JA, 2017, J HUM EVOL, V110, P69, DOI 10.1016/j.jhevol.2017.06.011
+   Heuze Y, 2008, AM J PHYS ANTHROPOL, V135, P275, DOI 10.1002/ajpa.20741
+   Hey G, 1999, ANTIQUITY, V73, P551
+   Higham C, 2009, ANTIQUITY, V83, P125, DOI 10.1017/S0003598X00098136
+   Higham T, 2005, BIBLE RADIOCARBON DA, P164
+   Hill JB, 2006, PREDICTIVE MODELING
+   Hoppa RD, 2008, PALEODEMOGRAPHY AGE, P1
+   Horsburgh KA, 2013, PLOS ONE, V8, DOI 10.1371/journal.pone.0071956
+   Kadane JB, 1987, BAYESIAN PALEOETHNOB
+   Kammonen J, 2012, REVIVE THE PAST, P318
+   Kirkinen T., 1999, NEW TECHNIQUES OLD T, P255
+   Konigsberg LW, 2002, AM J PHYS ANTHROPOL, V117, P297, DOI 10.1002/ajpa.10039
+   KONIGSBERG LW, 1992, AM J PHYS ANTHROPOL, V89, P235, DOI 10.1002/ajpa.1330890208
+   Konigsberg LW, 1998, AM J PHYS ANTHROPOL, V107, P97, DOI 10.1002/(SICI)1096-8644(199809)107:1<97::AID-AJPA8>3.3.CO;2-S
+   Konigsberg Lyle W., 1994, Evolutionary Anthropology, V3, P92, DOI 10.1002/evan.1360030306
+   Kopperl RE, 2015, PALEOAMERICA, V1, P116
+   Langford SM, 2013, BMC GENET, V14, DOI 10.1186/1471-2156-14-91
+   Larson G, 2007, P NATL ACAD SCI USA, V104, P15276, DOI 10.1073/pnas.0703411104
+   Lee S, 2013, RADIOCARBON, V55, P731, DOI 10.1017/S003382220005788X
+   Lehmann E. L., 1959, TESTING STAT HYPOTHE
+   Levy TE, 2006, ANTIQUITY, V80, P232, DOI 10.1017/S0003598X00093492
+   Litton C, 1990, COMPUT APPL QUANT ME, V565, P101
+   Long TW, 2015, J ARCHAEOL SCI, V63, P115, DOI 10.1016/j.jas.2015.08.019
+   Lull V, 2013, J ARCHAEOL SCI, V40, P4626, DOI 10.1016/j.jas.2013.07.008
+   Mannino MA, 2001, J ARCHAEOL SCI, V28, P1101, DOI 10.1006/jasc.2001.0658
+   Mays S, 2012, AM J PHYS ANTHROPOL, V149, P485, DOI 10.1002/ajpa.22146
+   McElreath R., 2016, STAT RETHINKING BAYE
+   McShane BB, 2017, J AM STAT ASSOC, V112, P885, DOI 10.1080/01621459.2017.1289846
+   Meiri M, 2014, P ROY SOC B-BIOL SCI, V281, DOI 10.1098/rspb.2013.2167
+   Meiri M, 2013, SCI REP-UK, V3, DOI 10.1038/srep03035
+   Mellars P, 2013, P NATL ACAD SCI USA, V110, P10699, DOI 10.1073/pnas.1306043110
+   Millard, 2002, ARCHEOLOGIA CALCOLAT, V13, P197
+   Millard AR, 2006, QUAT GEOCHRONOL, V1, P159, DOI 10.1016/j.quageo.2006.03.002
+   Myers OH, 1950, SOME APPL STAT ARCHA
+   Nagaoka T, 2008, ANTHROPOL SCI, V116, P161, DOI 10.1537/ase.070724
+   Nagaoka T, 2012, ANTHROPOL SCI, V120, P115, DOI 10.1537/ase.1107312
+   Nagarajan M, 2015, GENOME BIOL EVOL, V7, P1252, DOI 10.1093/gbe/evv067
+   NAYLOR JC, 1988, J AM STAT ASSOC, V83, P588, DOI 10.2307/2289281
+   Neyman J., 1937, Philosophical Transactions of the Royal Society of London. Series A (Mathematical and Physical Sciences), V236, P333, DOI 10.1098/rsta.1937.0005
+   Neyman J, 1934, J R STAT SOC, V97, P558, DOI 10.2307/2342192
+   Neyman J, 1933, PHILOS T R SOC LOND, V231, P289, DOI 10.1098/rsta.1933.0009
+   Nomokonova T, 2015, PLOS ONE, V10, DOI 10.1371/journal.pone.0128314
+   Nunn PD, 2013, J PAC ARCHAEOL, V4, P21
+   Ortman SG, 2007, AM ANTIQUITY, V72, P241, DOI 10.2307/40035813
+   Otarola-Castillo E, 2018, J ARCHAEOL SCI, V89, P56, DOI 10.1016/j.jas.2017.10.004
+   Papageorgiou I, 2007, ARCHAEOMETRY, V49, P795, DOI 10.1111/j.1475-4754.2007.00336.x
+   Pearson K, 1922, BIOMETRIKA, V14, P186, DOI 10.1093/biomet/14.1-2.186
+   Pellekaan SV, 2013, QUATERN INT, V285, P44, DOI 10.1016/j.quaint.2011.04.014
+   Pesonen P, 2012, RADIOCARBON, V54, P661, DOI 10.1017/S0033822200047330
+   Petrie CA, 2008, HOLOCENE, V18, P729, DOI 10.1177/0959683608091793
+   Pluckhahn TJ, 2015, J ANTHROPOL ARCHAEOL, V37, P19, DOI 10.1016/j.jaa.2014.10.004
+   Quiles A, 2013, J ARCHAEOL SCI, V40, P423, DOI 10.1016/j.jas.2012.05.026
+   R Core team, 2018, R LANG ENV STAT COMP
+   Ramsey CB, 2008, ARCHAEOMETRY, V50, P249, DOI [10.1111/j.1475-4754.2008.00394.x, 10.1111/J.1475-4754.2008.00394.X]
+   Ramsey CB, 2014, RADIOCARBON, V56, P789, DOI 10.2458/56.17160
+   Ramsey CB, 2010, SCIENCE, V328, P1554, DOI 10.1126/science.1189395
+   Rasheed N. A., 2015, INT J ADV RES, V3, P712
+   Ray N, 2010, MOL BIOL EVOL, V27, P337, DOI 10.1093/molbev/msp238
+   Rhodes EJ, 2003, QUATERNARY SCI REV, V22, P1231, DOI 10.1016/S0277-3791(03)00046-5
+   Riede F, 2012, J ARCHAEOL SCI, V39, P744, DOI 10.1016/j.jas.2011.11.008
+   Rieth T. M., 2013, HAWAIIAN ARCHAEOLOGY, V13, P103
+   Rissech C, 2013, INT J LEGAL MED, V127, P201, DOI 10.1007/s00414-012-0713-7
+   Robert C, 2011, STAT SCI, V26, P102, DOI 10.1214/10-STS351
+   Sacks BN, 2013, MOL BIOL EVOL, V30, P1103, DOI 10.1093/molbev/mst027
+   Salsburg D., 2001, LADY TASTING TEA STA
+   Savage SH, 1998, J ARCHAEOL SCI, V25, P235, DOI 10.1006/jasc.1997.0246
+   Seguy I, 2013, AM J PHYS ANTHROPOL, V150, DOI 10.1002/ajpa.22187
+   Shapiro B, 2004, SCIENCE, V306, P1561, DOI 10.1126/science.1101074
+   Shapiro B, 2012, METHODS MOL BIOL, V840, P1, DOI 10.1007/978-1-61779-516-9
+   Smith NG, 2008, BASOR, V2008, P41
+   Spaulding AC, 1953, AM ANTIQUITY, V18, P305, DOI 10.2307/277099
+   Speller CF, 2013, PLOS ONE, V8, DOI 10.1371/journal.pone.0069584
+   Stan Development Team, 2018, RSTAN R INT STAN R P
+   Tocheri MW, 2005, INT J OSTEOARCHAEOL, V15, P326, DOI 10.1002/oa.784
+   Tsutaya T, 2014, ANTHROPOL SCI, V122, P89, DOI 10.1537/ase.140604
+   Unkel I, 2007, RADIOCARBON, V49, P551
+   Warmuth V, 2013, ANIM GENET, V44, P53, DOI 10.1111/j.1365-2052.2012.02371.x
+   Weber A.W., 2012, GERMAN ARCHAEOLOGICA, V6, P141
+   Wilde S, 2014, P NATL ACAD SCI USA, V111, P4832, DOI 10.1073/pnas.1316513111
+   Willis AR, 2004, P 2004 IEEE COMP SOC
+   Wohlfarth B, 2006, J QUATERNARY SCI, V21, P321, DOI 10.1002/jqs.996
+   Wolfhagen J, 2017, J ARCHAEOL SCI-REP, V12, P625, DOI 10.1016/j.jasrep.2017.02.022
+   [谢国喜 XIE Guo-xi], 2009, [原子能科学技术, Atomic Energy Science and Technology], V43, P561
+   Yue XP, 2013, PLOS ONE, V8, DOI 10.1371/journal.pone.0056552
+   Zeidler JA, 1998, LAT AM ANTIQ, V9, P160, DOI 10.2307/971992
+NR 154
+TC 0
+Z9 0
+U1 1
+U2 1
+PU ANNUAL REVIEWS
+PI PALO ALTO
+PA 4139 EL CAMINO WAY, PO BOX 10139, PALO ALTO, CA 94303-0897 USA
+SN 0084-6570
+BN 978-0-8243-1947-2
+J9 ANNU REV ANTHROPOL
+JI Annu. Rev. Anthropol.
+PY 2018
+VL 47
+BP 435
+EP 453
+DI 10.1146/annurev-anthro-102317-045834
+PG 19
+WC Anthropology
+SC Anthropology
+GA BL1XC
+UT WOS:000448557600027
+DA 2019-03-24
+ER
+
+EF

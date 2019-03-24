@@ -8,7 +8,10 @@
 
 # download csv
 
-scopus <- readr::read_csv("data/scopus.csv")
+library(tidyverse)
+library(here)
+
+scopus <- readr::read_csv(here("data", "raw-data", "scopus.csv"))
 
 # what disciplines have cited this paper the most?
 library(dplyr)
@@ -29,9 +32,12 @@ scopus %>%
   arrange(desc(n))
 
 # journals by discpline from https://raw.githubusercontent.com/sdspieg/zotero-classify-articles/master/chrome/content/journals.json
+# json <- "https://raw.githubusercontent.com/sdspieg/zotero-classify-articles/master/chrome/content/journals.json"
+# library(jsonlite)
+# journals <- fromJSON(json, flatten=TRUE)
+# write_csv(journals, here("data", "derived-data", "journals.csv"))
 
-library(jsonlite)
-journals <- fromJSON("journals.json", flatten=TRUE)
+journals <- read_csv(here("data", "derived-data", "journals.csv"))
 
 journal_titles_by_discpline <- 
   journal_titles %>% 
@@ -62,13 +68,15 @@ ggplot(journal_titles_by_discpline_tally,
            label = `Main Discipline`)) +
   geom_point() +
   geom_text_repel() +
-  theme_bw() +
+  scale_y_log10() +
+  scale_x_log10() +
+  theme_bw(base_size = 12) +
   xlab("Number of citing articles") +
   ylab("Number of citations of those articles citing Nosek et al.") +
   ggtitle(paste0("Disciplines of ", nrow(scopus), " articles citing \nNosek B.A., et al. (2015) Promoting an open research culture. \nScience, 348 (6242): 1422-1425.")) +
   labs(caption = paste0("Data from Scopus."))
 
-ggsave(filename = "citations_by_discpline.png", 
+ggsave(filename = here("figures", "citations_by_discpline.png"), 
        height = 6, 
        width = 6)
 

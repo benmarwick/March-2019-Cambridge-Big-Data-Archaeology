@@ -113,12 +113,19 @@ disruption_df <-
 
 saveRDS(disruption_df, here("data", "derived-data", "disruption_df.rds"))
 
+disruption_df <- readRDS(here("data", "derived-data", "disruption_df.rds"))
+
 ggplot() +
   geom_histogram(data = disruption_df,
                  aes(disruption)) +
   theme_minimal(base_size = 12) +
   xlab("Disruption index") +
-  scale_x_continuous(limits = c(-1, 1))
+  scale_x_continuous(limits = c(-1, 1)) +
+  xlab(str_glue("Disruption index values for {nrow(disruption_df)} articles from Web of Science (1998-2018)")) 
+  
+ggsave(here("figures", "disruption-index-plain.png"),
+       h = 5, w = 7)
+
 
 disruption_df_top_10 <-  
   disruption_df %>% 
@@ -137,7 +144,8 @@ y_pos <-  seq.int(from = 400,
 y_pos_bottom <-  seq.int(from = 10, 
                   to = 200, 
                   length.out = length(disruption_df_bottom_10$disruption))
-  
+
+main <- 
 ggplot() +
   geom_histogram(data = disruption_df,
                  aes(disruption),
@@ -151,39 +159,120 @@ ggplot() +
                y = rep(0, length(disruption_df_top_10$disruption)),
                yend = y_pos),
           colour = "darkgreen",
-          alpha = 0.3,
-          size = 0.1) +
+          alpha = 1,
+          size = 0.5) +
   geom_segment(data = disruption_df_bottom_10,
                aes(x = disruption,
                    xend = disruption,
                    y = rep(0, length(disruption_df_bottom_10$disruption)),
                    yend = y_pos_bottom),
                colour = "darkred",
-               alpha = 0.3, 
-               size = 0.1) +
+               alpha = 1, 
+               size = 0.5) +
   annotate("text", 
            x = disruption_df_top_10$disruption - 0,
            y = y_pos,
           label = disruption_df_top_10$short_ref, 
           colour = "darkgreen",
-          size = disruption_df_top_10$disruption * 7,
+          size = disruption_df_top_10$disruption * 5,
           hjust = 1) +
   annotate("text", 
            x = disruption_df_bottom_10$disruption - 0,
            y = y_pos_bottom,
            label = disruption_df_bottom_10$short_ref, 
            colour = "darkred",
-           size = -disruption_df_bottom_10$disruption * 15,
-           hjust = 1)
+           size = -disruption_df_bottom_10$disruption * 10,
+           hjust = 1) +
+  # white mask for the subplot
+   geom_rect(data=disruption_df,
+             xmin= -1.05, 
+             xmax= -0.5, 
+             ymin= 150, 
+             ymax= 250,
+             fill="white", alpha=0.5)
 
-ggsave(here("figures", "disruption-index.png"))
+# we don't see the team size-disruptiveness relationship here!
+
+disruption_df %>% 
+  # filter( disruption != 0) %>% 
+ lm(authors_n ~ disruption, data = .) %>% 
+  broom::glance()
 
 
-ggplot(disruption_df,
-       aes(disruption, authors_n)) +
-  geom_jitter() +
-  geom_smooth(alpha = 0.2) +
-  theme_minimal(base_size = 12)
+team_size <- 
+  ggplot(disruption_df, 
+         aes(disruption, authors_n)) +
+  geom_jitter(alpha = 0.2) +
+  geom_smooth(alpha = 0.2, method = "lm") +
+  xlab("Disruption index values") +
+  ylab(str_glue("Number of authors\n(total = {sum(disruption_df$authors_n)})")) +
+  theme_bw(base_size = 6)
+
+main + 
+  annotation_custom(ggplotGrob(team_size), 
+                    xmin= -1.05, 
+                    xmax= -0.5, 
+                    ymin= 150, 
+                    ymax= 250) 
+
+ggsave(here("figures", "disruption-index-papers.png"),
+       h = 5, w = 7)
+
+# which journals are publishing the most disruptive work?
+
+journals_more_than_five <- 
+disruption_df %>%  
+  group_by(journal) %>% 
+  tally(sort = TRUE) %>% 
+  filter(n > 5) %>% 
+  pull(journal)
+
+# what proportion of articles have +ve values?
+journals_with_high_disruption <- 
+  disruption_df %>% 
+  filter(journal %in% journals_more_than_five) %>% 
+  group_by(journal) %>% 
+  summarise(n_pos = sum(disruption > 0.5 ),
+            p_pos = n_pos / n()) %>% 
+  arrange(desc(p_pos) ) %>% 
+  filter(p_pos > 0) %>% 
+  pull(journal)
+
+disruption_df <- 
+  disruption_df %>% 
+  mutate(high_disrupt = ifelse(journal %in% journals_with_high_disruption, TRUE, FALSE))
+
+
+library(ggbeeswarm)
+disruption_df %>% 
+  filter(journal %in% journals_more_than_five) %>% 
+  group_by(journal) %>% 
+  mutate(mean = mean(disruption)) %>% 
+  arrange(desc(mean)) %>% 
+ggplot(aes(reorder(journal,
+                   mean),
+           disruption)) +
+  geom_boxplot()  +
+  geom_quasirandom(alpha = 0.4,
+                   size = 3,
+                   aes(colour = high_disrupt)) +
+  coord_flip() +
+  xlab("") +
+  theme_minimal() +
+  guides(colour = "none")
+
+ggsave(here("figures", "disruption-index-journals.png"),
+       h = 5, w = 8)
+
+
+
+
+
+
+
+
+
+
 
 
 
