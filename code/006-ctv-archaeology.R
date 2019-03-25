@@ -25,27 +25,48 @@ archy_ctv_readme_20XX <- archy_ctv_readme_20XX[archy_ctv_readme_20XX > 2010]
 
 number_of_reproducible_articles <- length(archy_ctv_readme_20XX)
 
-data_to_plot <- data_frame(year = archy_ctv_readme_20XX,
-                           journal_name = top_archy_journal_names) %>%
+data_to_plot <- 
+  data_frame(year = archy_ctv_readme_20XX,
+             journal_name = top_archy_journal_names) %>%
   filter(!is.na(year),
          year <= 2018) %>%
-  mutate(year = factor(year))
+  group_by(year) 
 
+journals_with_reproducible_articles <- 
+data_to_plot %>% 
+  group_by(journal_name) %>% 
+  tally(sort = TRUE) %>% 
+  ggplot(aes(reorder(journal_name, n),
+             n)) +
+  geom_col() +
+  coord_flip() +
+  xlab("") +
+  theme_bw(base_size = 10) 
+
+data_to_plot_tally <- 
+data_to_plot %>% 
+  tally() 
 
 archaeology_articles_r_reproducible <-
-  ggplot(data_to_plot,
-         aes(year,
-             fill = journal_name)) +
-  geom_bar(position = "stack") +
+  ggplot(data_to_plot_tally,
+         aes(year, n)) +
+  geom_point(size = 10) +
+  geom_smooth(method = "lm", 
+              alpha = 0.3) +
   scale_y_continuous(breaks = 1:10) +
-  scale_fill_discrete(name = "Journal")  +
   xlab("Year of publication") +
-  ylab("Number of articles") +
-  theme_minimal(base_size = 18) +
-  theme(legend.text=element_text(size=16))
+  ylab("Number of reproducible\njournal articles") +
+  theme_minimal(base_size = 25) 
 
-ggsave(plot = archaeology_articles_r_reproducible,
+archaeology_articles_r_reproducible + 
+  annotation_custom(ggplotGrob(journals_with_reproducible_articles), 
+                    xmin= 2014, 
+                    xmax= 2018, 
+                    ymin= -3, 
+                    ymax= 2.35) 
+
+ggsave(
        filename = "archaeology_articles_r_reproducible.png",
        path = here::here('figures'),
        height = 9,
-       width = 16)
+       width = 12)

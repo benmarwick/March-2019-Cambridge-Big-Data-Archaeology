@@ -24,6 +24,12 @@ archy_journal_articles_n <-
   filter(PY >= 2010) %>% 
   select(ID, PY, TC) 
 
+ggplot(archy_journal_articles_n,
+       aes(ID, TC)) +
+  geom_boxplot() +
+  scale_y_log10() +
+  theme_minimal(base_size = 16)
+
 # compute t-test
 archy_journal_articles_citations_t_test <- 
   t.test(  archy_journal_articles_n$TC ~  factor(archy_journal_articles_n$ID))
@@ -36,10 +42,11 @@ df <- round(tt$parameter, 0)
 dd <- archy_journal_articles_n %>% 
   group_by(ID) %>% 
   summarise(mean = mean(TC))
+
 dd_cites_mean <- dd %>% filter(ID == "Cites R") %>%  pull(mean) %>% round(1)
 dd_no_cites_mean <- dd %>% filter(ID == "Doesn't cite R") %>%  pull(mean) %>% round(1) 
 test_explanation <- 
-  str_glue("On average, articles citing R \nhave significantly higher numbers\nof citations (m = {dd_cites_mean}) than articles\nthat do not (m =  {dd_no_cites_mean})\nt({df}) = {tvalue}, p =  {pvalue}")
+  str_glue("On average, articles citing R \nhave higher numbers\nof citations (m = {dd_cites_mean}) than articles\nthat do not (m =  {dd_no_cites_mean})\nt({df}) = {tvalue}, p =  {pvalue}")
 
 archy_journal_articles_citations_plot <- 
   ggplot(archy_journal_articles_citations %>% 

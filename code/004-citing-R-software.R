@@ -38,6 +38,9 @@
 # UT= Accession Number
 # PMID= PubMed ID
 
+library(tidyverse)
+
+#--------------------- Ecology -------------------------
 
 cran_cites_files <-
   list.files(here::here("data", "raw-data", "cited_cran"),
@@ -108,6 +111,7 @@ cran_cites_all_areas_top_journals_by_year <-
 
 min_y <- 2007
 max_y <- 2025
+library(ggrepel)
 all_sciences_citing_R_over_time <-
   ggplot(cran_cites_all_areas_top_journals_by_year,
          aes(PY,
@@ -132,7 +136,8 @@ all_sciences_citing_R_over_time <-
   ylab("Percentage of articles in that journal in that year") +
   theme_minimal() +
   theme(legend.position="none",
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+  ggtitle(str_glue('Percentage of articles per year citing R in top Ecology journals ({prettyNum(articles_shown_in_plot,",")} articles out of {prettyNum(how_many_articles_in_top_journals_for_cran_cites,",")}).\nData from Web of Science for 2007-2017'))
 
 ggsave(plot = all_sciences_citing_R_over_time,
        filename = "all_sciences_citing_R_over_time.png",
@@ -141,6 +146,7 @@ ggsave(plot = all_sciences_citing_R_over_time,
        width = 9)
 
 
+#--------------------- Archaeology -------------------------
 # Data are from an 'advanced search' of apps.webofknowledge.com using WC=Archaeology on apps.webofknowledge.com.
 
 # Results: 44,047
@@ -212,6 +218,13 @@ archy_cran_all_years <-
   mutate(PY = as.numeric(PY)) %>%
   filter(PY <= 2019)
 
+# want to get total number of articles in top journals for 2007-2018
+top_journals_for_archy_per_year_2007_2018 <- 
+top_journals_for_archy_per_year %>% 
+  filter(PY >= 2007) %>% 
+  group_by(SO) %>%
+  summarise(sum_n = sum(n))
+  
 # tally by year
 archy_cran_cites_all_areas_top_journals_by_year <-
   archy_cran_all_years %>%
@@ -233,13 +246,13 @@ archy_cran_cites_all_areas_top_journals_by_year <-
   archy_cran_cites_all_areas_top_journals_by_year %>%
   group_by(SO) %>%
   summarise(total_n_articles = sum(n.x)) %>%
-  mutate(SO_n = as.character(glue('{SO} (n = {total_n_articles})'))) %>%
   right_join(archy_cran_cites_all_areas_top_journals_by_year,
-             by = "SO")
-
-
+             by = "SO") %>% 
+  left_join(top_journals_for_archy_per_year_2007_2018) %>% 
+  mutate(SO_n = as.character(glue('{SO} (n = {total_n_articles}/{sum_n})'))) 
+  
 min_y <- 2007
-max_y <- 2040
+max_y <- 2045
 
 all_archaeology_citing_R_over_time <-
   ggplot(archy_cran_cites_all_areas_top_journals_by_year,
@@ -257,11 +270,12 @@ all_archaeology_citing_R_over_time <-
     size = 5,
     nudge_x = 1,
     hjust = 0) +
-  theme_minimal() +
+  theme_minimal(base_size = 25) +
   theme(legend.position="none",
         axis.text.x = element_text(angle = 90,
                                    hjust = 1,
-                                   vjust = 0.5)) +
+                                   vjust = 0.5),
+        axis.title.x = element_text(hjust = 0)) +
   scale_x_continuous(breaks = min_y:max_y,
                      labels = c(min_y:2018,
                                 rep("",
@@ -281,7 +295,10 @@ ggsave(plot = all_archaeology_citing_R_over_time,
 # look at the trend in JAS, where there are the most articles
 
 how_many_articles_in_jas <-  
-  archy_cran_cites_all_areas_top_journals_by_year$total_n_articles[1]
+  top_journals_for_archy_per_year_2007_2018 %>% 
+  filter(SO == "JOURNAL OF ARCHAEOLOGICAL SCIENCE") %>% 
+  select(sum_n) %>% 
+  pull()
 
 library(ggpmisc)
 jas_cites_r <-
@@ -291,7 +308,9 @@ jas_cites_r <-
              prop)) +
   geom_point(size = 4) +
   geom_smooth(method = "lm",
-              se = FALSE) +
+              se = TRUE,
+              alpha = 0.2,
+              size = 2) +
   stat_poly_eq(aes(label =  paste(..eq.label..,
                                   ..adj.rr.label..,
                                   sep = "~~~~")),
@@ -302,7 +321,7 @@ jas_cites_r <-
   stat_fit_glance(label.y.npc = 0.7,
                   size = 3,
                   method = "lm",
-                  method.args = list(formula = y ~ x),
+                  method.args = list(formula = y~x),
                   geom = "text",
                   aes(label = paste("p-value: ",
                                     signif(..p.value..,
@@ -317,8 +336,8 @@ jas_cites_r <-
 all_archaeology_citing_R_over_time_and_subplot <-
   all_archaeology_citing_R_over_time  +
   annotation_custom(grob = ggplotGrob(jas_cites_r),
-                    xmin = 2030, xmax = 2040,
-                    ymin = 0.10, ymax = 0.17)
+                    xmin = 2030, xmax = 2043,
+                    ymin = 0.12, ymax = 0.19)
 
 ggsave(plot = all_archaeology_citing_R_over_time_and_subplot,
        filename = "all_archaeology_citing_R_over_time_and_subplot.png",
@@ -359,7 +378,16 @@ tidy_cites <-
   unnest_tokens(word, TI) %>%
   filter(!word %in% c(stop_words$word, "archaeology",
                       "archaeological",
-                      "analysis", "study", "site", "period", "past", "patterns", "investigation", "analyses", "late", "region", "based", "central", "north", "south", "east", "west", "western", "eastern", "ad", "pre", "sites", "evidence", "prehistoric", "remains", "change", "de", "identification", "northern", "southern", "valley", "implications", "valley", "history", "historical", "modern", "context", "stable", "middle", "approach", "san", "artifacts", "palaeolithic"),
+                      "analysis", "study", "site", "period", "past", 
+                      "patterns", "investigation", "analyses", "late", 
+                      "region", "based", "central", "north", "south", 
+                      "east", "west", "western", "eastern", "ad", 
+                      "pre", "sites", "evidence", "prehistoric", 
+                      "remains", "change", "de", "identification",
+                      "northern", "southern", "valley", "implications", 
+                      "valley", "history", "historical", "modern", 
+                      "context", "stable", "middle", "approach", 
+                      "san", "artifacts", "age"),
          str_detect(word, "[a-z]"))
 
 frequency <-
@@ -388,8 +416,8 @@ archaeology_articles_word_freqs <-
              size = 2.5,
              width = 0.25,
              height = 0.25) +
-  geom_text_repel(aes(label = word),
-                  size = 3,
+  geom_text_repel(aes(label = word,
+                  size =   (has_R_cites + (has_R_cites - no_R_cites)) + 10),
                   segment.colour = "grey80") +
   scale_x_log10(labels = percent_format(),
                 limits = c(0.00075, 0.015)) +
@@ -398,11 +426,12 @@ archaeology_articles_word_freqs <-
   theme_minimal(base_size = 16) +
   xlab("Articles that do not cite R") +
   ylab("Articles that cite R") +
-  coord_equal()
+  coord_equal() +
+  guides(size = 'none')
 
 ggsave(plot = archaeology_articles_word_freqs,
        filename = "archaeology_articles_word_freqs.png",
        path = here::here('figures'),
-       height = 9,
-       width = 9)
+       height = 8,
+       width = 8)
 

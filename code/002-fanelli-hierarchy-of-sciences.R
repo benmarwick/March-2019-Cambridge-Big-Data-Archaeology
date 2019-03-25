@@ -9,7 +9,7 @@ library(here)
 
 # load data --------------------------------------------------------------------
 # this is the fast way to resume:
-items_df <- readRDS("data/wos-data-df.rds")
+items_df <- readRDS(here("data", "derived-data", "wos-data-df.rds"))
 
 items_df <- 
 items_df %>% 
@@ -57,31 +57,37 @@ ggsave(here("figures", "box_num_authors.svg"))
 items_df %>% 
   filter(!is.na(year)) %>% 
   ggplot(aes(year,
-             log(authors_n),
-             group = year)) +
-  geom_boxplot() +
-  geom_jitter(alpha = 0.2) +
+             log(authors_n))) +
+  geom_smooth() +
+  geom_jitter(alpha = 0.01) +
   theme_minimal() +
   ylab("Number of authors (ln)")
 
 ggsave(here("figures", "box_num_authors_over_time.png"))
 
 # by journal, wow yes!
+library(ggridges)
 items_df %>% 
   filter(!is.na(year)) %>% 
   group_by(journal) %>% 
   filter(n() > 100) %>% 
-  ggplot(aes(reorder(journal,
+  mutate(log_authors_n = log(authors_n),
+         journal_wrp = str_wrap(journal, 30)) %>% 
+  ggplot(aes(y = reorder(journal_wrp,
                      authors_n), 
-             log(authors_n),
-             group = journal)) +
-  geom_boxplot()  +
-  coord_flip() +
-  theme_minimal() +
-  xlab("") + 
-  ylab("Number of authors (ln)")
+             x = log_authors_n,
+             fill = ..x..,
+             height = ..density..)) +
+  geom_density_ridges_gradient(stat = "density",
+                               colour = "white") +
+  scale_fill_viridis_c() +
+  theme_minimal(base_size = 10) +
+  ylab("") + 
+  xlab("Number of authors (ln)") +
+  guides(fill = 'none')
 
-ggsave(here("figures", "box_num_authors_by_journal.png"))
+ggsave(here("figures", "ridge_num_authors_by_journal.png"),
+       h = 4, w = 6)
 
 # histogram
 
@@ -154,18 +160,23 @@ items_df %>%
   filter(!is.na(year)) %>% 
   group_by(journal) %>% 
   filter(n() > 100) %>% 
-  ggplot(aes(reorder(journal,
-                     pages_n), 
-             log(pages_n),
-             group = journal)) +
-  # geom_boxplot()  +
-  geom_sina() +
-  coord_flip() +
-  theme_minimal() +
-  ylab("Number of pages (ln)") +
-  xlab("")
+  mutate(log_pages_n = log(pages_n),
+         journal_wrp = str_wrap(journal, 30)) %>% 
+  ggplot(aes(y = reorder(journal_wrp,
+                         -pages_n), 
+             x = log_pages_n,
+             fill = ..x..,
+             height = ..density..)) +
+  geom_density_ridges_gradient(stat = "density",
+                               colour = "white") +
+  scale_fill_viridis_c() +
+  theme_minimal(base_size = 10) +
+  ylab("") + 
+  xlab("Number of pages (ln)") +
+  guides(fill = 'none')
 
-ggsave(here("figures", "box_num_pages_by_journal.png"))
+ggsave(here("figures", "ridge_num_pages_by_journal.png"),
+       h = 4, w = 6)
 
 #  ------------------------------------------------------------------
 # number of references - less need to justify, explain and support study [47]
@@ -205,17 +216,24 @@ items_df %>%
   filter(!is.na(year)) %>% 
   group_by(journal) %>% 
   filter(n() > 100) %>% 
-  ggplot(aes(reorder(journal,
-                     refs_n), 
-             sqrt(refs_n),
-             group = journal)) +
-  geom_boxplot()  +
-  coord_flip()+
-  theme_minimal()  +
-  ylab("Number of references (ln)") +
-  xlab("")
+  mutate(sqrt_refs_n = sqrt(refs_n),
+         journal_wrp = str_wrap(journal, 30),
+         refs_per_page = refs_n / pages_n) %>% 
+  ggplot(aes(y = reorder(journal_wrp,
+                         -refs_per_page), 
+             x = refs_per_page,
+             fill = ..x..,
+             height = ..density..)) +
+  geom_density_ridges_gradient(stat = "density",
+                               colour = "white") +
+  scale_fill_viridis_c() +
+  theme_minimal(base_size = 10) +
+  ylab("") + 
+  xlab("Number of references per page") +
+  guides(fill = 'none')
 
-ggsave(here("figures", "box_num_refs_by_journal.png"))
+ggsave(here("figures", "ridge_num_refs_by_journal.png"),
+       h = 4, w = 6)
 
 #  ------------------------------------------------------------------
 #  references to monographs - focus on simpler questions; less need to justify, explain and support study [53,54]
@@ -224,7 +242,8 @@ ggsave(here("figures", "box_num_refs_by_journal.png"))
 #  ------------------------------------------------------------------
 # age of references - faster settling of disagreements; greater potential to build research upon previous findings [44,56]
 
-# Derek de Solla Price proposed an index, which measures the proportion of cited references published in the five years preceding the citing paper
+# Derek de Solla Price proposed an index, which measures the proportion of
+# cited references published in the five years preceding the citing paper
 
 items_wth_refs <- 
   items_df %>% 
@@ -308,17 +327,23 @@ items_wth_refs %>%
   filter(!is.na(year)) %>% 
   group_by(journal) %>% 
   filter(n() > 100) %>% 
-  ggplot(aes(reorder(journal,
-                     prices_index), 
-             prices_index,
-             group = journal)) +
-  geom_boxplot()  +
-  coord_flip()+
-  theme_minimal() +
-  ylab("Price's Index") +
-  xlab("")
+  mutate(journal_wrp = str_wrap(journal, 30),
+         mean_price = median(prices_index)) %>% 
+  ggplot(aes(y = reorder(journal_wrp,
+                         mean_price), 
+             x = prices_index,
+             fill = ..x..,
+             height = ..density..)) +
+  geom_density_ridges_gradient(stat = "density",
+                               colour = "white") +
+  scale_fill_viridis_c() +
+  theme_minimal(base_size = 10) +
+  ylab("") + 
+  xlab("Price's Index") +
+  guides(fill = 'none')
 
-ggsave(here("figures", "box_age_refs_by_journal.png"))
+ggsave(here("figures", "ridge_age_refs_by_journal.png"),
+       h = 4, w = 6)
 
 #  ------------------------------------------------------------------
 # diversity of sources - fewer research topics, which are of more general interest [47,57]
@@ -424,19 +449,27 @@ shannon_per_item %>%
   filter(!is.na(year)) %>% 
   group_by(journal) %>% 
   filter(n() > 100) %>% 
-  ggplot(aes(reorder(journal,
-                     shannon), 
-             shannon,
-             group = journal)) +
-  geom_boxplot()  +
-  coord_flip()+
-  theme_minimal() +
-  ylab("Shannon Index") +
-  xlab("")
+  mutate(journal_wrp = str_wrap(journal, 30),
+         mean_shannon = median(shannon)) %>% 
+  ggplot(aes(y = reorder(journal_wrp,
+                         -mean_shannon), 
+             x = shannon,
+             fill = ..x..,
+             height = ..density..)) +
+  geom_density_ridges_gradient(stat = "density",
+                               colour = "white") +
+  scale_fill_viridis_c() +
+  theme_minimal(base_size = 10) +
+  ylab("") + 
+  xlab("Shannon Index for the diversity of sources") +
+  guides(fill = 'none')
 
-ggsave(here("figures", "box_div_refs_by_journal.png"))
+ggsave(here("figures", "ridge_div_refs_by_journal.png"),
+       h = 4, w = 6)
 
-# relative title length + clearly defined, substantive research questions [52,58], total number of words, divided by total number of pages.
+# relative title length + clearly defined, substantive research
+# questions [52,58], total number of words, divided by total 
+# number of pages.
 
 items_df_title <- 
   items_df %>% 
@@ -481,17 +514,23 @@ items_df_title %>%
   filter(!is.na(year)) %>% 
   group_by(journal) %>% 
   filter(n() > 100) %>% 
-  ggplot(aes(reorder(journal,
-                     relative_title_length), 
-             relative_title_length,
-             group = journal)) +
-  geom_boxplot()  +
-  coord_flip()+
-  theme_minimal() +
-  xlab("") +
-  ylab("Relative title length")
+  mutate(journal_wrp = str_wrap(journal, 30),
+         mean_relative_title_length= median(relative_title_length)) %>% 
+  ggplot(aes(y = reorder(journal_wrp,
+                         mean_relative_title_length), 
+             x = relative_title_length,
+             fill = ..x..,
+             height = ..density..)) +
+  geom_density_ridges_gradient(stat = "density",
+                               colour = "white") +
+  scale_fill_viridis_c() +
+  theme_minimal(base_size = 10) +
+  ylab("") + 
+  xlab("Relative title length") +
+  guides(fill = 'none')
 
-ggsave(here("figures", "box_title_length_over_time.png"))
+ggsave(here("figures", "ridge_title_length_over_time.png"),
+       h = 4, w = 6)
 
 
 # use of first person (singular vs. plural) in abstracts, - universal validity of claims; less scope for argumentation; fewer appeals to opinion and authority [59], the proportion of first person pronouns, both singular and plural (i.e. ‘‘I’’, ‘‘me’’, ‘‘mine’’, ‘‘we’’, ‘‘our’’ etc.) among all words in the abstract.
@@ -550,6 +589,89 @@ items_df_abstract %>%
   geom_boxplot()  +
   coord_flip() +
   theme_minimal()
+
+#--------------------------------
+# Six variables over time
+
+over_time <- 
+  items_df_title %>% 
+  left_join(items_df_title) %>% 
+  left_join(shannon_per_item) %>% 
+  filter(!is.na(year)) %>% 
+  group_by(journal) %>% 
+  filter(n() > 100) %>% 
+  mutate(log_authors_n = log(authors_n),
+         log_pages_n = log(pages_n),
+         sqrt_refs_n = sqrt(refs_n),
+         journal_wrp = str_wrap(journal, 30)) %>% 
+  select(year,
+         log_authors_n,
+         log_pages_n,
+         prices_index, 
+         shannon,
+         sqrt_refs_n, 
+         relative_title_length)
+
+over_time_long <- 
+over_time %>% 
+  ungroup() %>% 
+  select(-journal) %>% 
+  gather(variable, 
+         value,
+         -year) %>% 
+  filter(value != -Inf,
+         value !=  Inf) %>% 
+  mutate(variable = case_when(
+    variable == "log_authors_n" ~ "N. of authors (ln)",
+    variable == "log_pages_n"   ~ "N. of pages (ln)",
+    variable == "prices_index"  ~ "Price's index",
+    variable == "shannon"  ~ "Shannon div. of sources",
+    variable == "sqrt_refs_n"  ~ "N. of refs (sqrt)",
+    variable == "relative_title_length"  ~ "Relative title length (ln)"
+  ))
+
+# compute beta estimates so we can colour lines to indicate more or
+# less scientific
+library(broom)
+over_time_long_models <- 
+over_time_long %>% 
+  group_nest(variable) %>% 
+  mutate(model = map(data, ~tidy(lm(value ~ year, data = .)))) %>% 
+  unnest(model) %>% 
+  filter(term == 'year') %>% 
+  mutate(becoming_more_scientific = case_when(
+    variable == "N. of authors (ln)" & estimate > 0 ~ "TRUE",
+    variable == "N. of pages (ln)"   & estimate < 0 ~ "TRUE",
+    variable == "N. of refs (sqrt)"  & estimate < 0 ~ "TRUE",
+    variable == "Price's index"     & estimate > 0 ~ "TRUE",
+    variable == " Relative title length (ln)"     & estimate > 0 ~ "TRUE",
+    variable == "Shannon div. of sources"     & estimate < 0 ~ "TRUE",
+    TRUE ~ "FALSE"
+  )) 
+
+# join with data
+over_time_long_colour <- 
+over_time_long %>% 
+  left_join(over_time_long_models)
+  
+ggplot(over_time_long_colour,
+       aes(year, 
+           value,
+           colour = becoming_more_scientific)) +
+  geom_point(alpha = 0.05) +
+  geom_smooth(method = "lm", 
+              size = 3) +
+  facet_wrap( ~ variable,
+              scales = "free_y") +
+  theme_minimal(base_size = 12) +
+  scale_color_manual(values = c("red", "green")) +
+  guides(colour = "none") +
+  ylab("")
+
+ggsave(here("figures", "facet_six_variables_over_time.png"),
+       h = 4, w = 6)
+  
+  
 
 #----------------------------- END ---------------------------------------------
 

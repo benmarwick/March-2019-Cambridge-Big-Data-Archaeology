@@ -41,6 +41,7 @@ items_df_one_row_per_ref_with_doi <-
   filter(!is.na(doi_cited)) %>% 
   select(-doi)
 
+# ------- compute Disruption (skip to load previous result) ----
 # for a focal article:
 # - find the articles that cite the focal article
 # - find what articles that citing article cites 
@@ -112,6 +113,9 @@ disruption_df <-
   mutate(short_ref = as.character(str_glue('{first_author} {year}, {str_trunc(title, 50)}')))
 
 saveRDS(disruption_df, here("data", "derived-data", "disruption_df.rds"))
+
+
+# ----------------- Load previous Disruption result ---------------------
 
 disruption_df <- readRDS(here("data", "derived-data", "disruption_df.rds"))
 
