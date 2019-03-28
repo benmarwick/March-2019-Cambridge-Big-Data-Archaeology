@@ -242,6 +242,7 @@ total_number_archaeology_articles_citing_r <- sum(archy_cran_cites_all_areas_top
 # sort(unique(archy_cran_cites_all_areas_top_journals_by_year$SO))
 
 # nice labels with n for plot
+library(glue)
 archy_cran_cites_all_areas_top_journals_by_year <-
   archy_cran_cites_all_areas_top_journals_by_year %>%
   group_by(SO) %>%
@@ -254,6 +255,7 @@ archy_cran_cites_all_areas_top_journals_by_year <-
 min_y <- 2007
 max_y <- 2045
 
+library(ggrepel)
 all_archaeology_citing_R_over_time <-
   ggplot(archy_cran_cites_all_areas_top_journals_by_year,
          aes(PY,
@@ -336,9 +338,10 @@ jas_cites_r <-
 all_archaeology_citing_R_over_time_and_subplot <-
   all_archaeology_citing_R_over_time  +
   annotation_custom(grob = ggplotGrob(jas_cites_r),
-                    xmin = 2030, xmax = 2043,
+                    xmin = 2033, xmax = 2045,
                     ymin = 0.12, ymax = 0.19)
 
+library(here)
 ggsave(plot = all_archaeology_citing_R_over_time_and_subplot,
        filename = "all_archaeology_citing_R_over_time_and_subplot.png",
        path = here('figures'),

@@ -34,6 +34,10 @@ ggplot(archy_journal_articles_n,
 archy_journal_articles_citations_t_test <- 
   t.test(  archy_journal_articles_n$TC ~  factor(archy_journal_articles_n$ID))
 
+library(lsr)
+
+d <- round(cohensD( archy_journal_articles_n$TC ~  factor(archy_journal_articles_n$ID)), 3)
+
 tt <- t.test(archy_journal_articles_n$TC ~  factor(archy_journal_articles_n$ID))
 tvalue <- tt$statistic %>% formatC(digits = 2, format = "f")
 pvalue <- tt$p.value %>% formatC(digits = 5, format = "f")
@@ -46,7 +50,7 @@ dd <- archy_journal_articles_n %>%
 dd_cites_mean <- dd %>% filter(ID == "Cites R") %>%  pull(mean) %>% round(1)
 dd_no_cites_mean <- dd %>% filter(ID == "Doesn't cite R") %>%  pull(mean) %>% round(1) 
 test_explanation <- 
-  str_glue("On average, articles citing R \nhave higher numbers\nof citations (m = {dd_cites_mean}) than articles\nthat do not (m =  {dd_no_cites_mean})\nt({df}) = {tvalue}, p =  {pvalue}")
+  str_glue("On average, articles citing R \nhave higher numbers\nof citations (m = {dd_cites_mean}) than articles\nthat do not (m =  {dd_no_cites_mean})\nt({df}) = {tvalue}\np =  {pvalue}\nd = {d}")
 
 archy_journal_articles_citations_plot <- 
   ggplot(archy_journal_articles_citations %>% 
@@ -66,7 +70,7 @@ png(here::here("figures", "archy_journal_articles_citations_plot_cap.png"),
 print(archy_journal_articles_citations_plot)
 library(grid)
 grid.text(test_explanation, 
-          x = 0.70, y = 0.25, 
+          x = 0.70, y = 0.22, 
           gp=gpar(fontsize=11),
           just = 'left')
 invisible(dev.off())
